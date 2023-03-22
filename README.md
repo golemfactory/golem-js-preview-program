@@ -1,6 +1,6 @@
-# Golem SDK Community Feedback
+# Golem JS Code Crush
 
-Welcome to the Golem SDK Community Feedback repository! 
+Welcome to the Golem JS Code Crush repository! 
 This repository contains a set of tasks that you can complete to broaden your knowledge and help improve the Golem Network. 
 By completing these tasks, you will help our team gather valuable feedback and suggestions on how to improve our ecosystem.
 

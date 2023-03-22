@@ -1,0 +1,14 @@
+{
+  "name": "yagna-setup",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Ensure the yagna setup is complete",
+  "scripts": {
+    "verify": "node verify.mjs"
+  },
+  "author": "Golem Factory GmbH",
+  "license": "MIT",
+  "dependencies": {
+    "yajsapi": "^0.7.0-alpha.0"
+  }
+}
