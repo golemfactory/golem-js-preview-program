@@ -1,23 +1,28 @@
 # Yagna Setup
 
-## Description
-
-Setup access to Golem Network to schedule computations on our distributed infrastructure. 
-The setup will include installing all the necessary system packages, installing the daemon itself and making sure the 
-executables are discoverable by your system and finally running a verification script to ensure the setup is complete!
-
 ## Why
 
-To setup an environment for future tasks, and ensure that you can run tasks on Golem Network!
+Yagna provides access to the Golem Network. You need to set-up the Yagna daemon to run tasks on the Golem Network 
+
+## Description
+
+Install and configure the Yagna daemon on your machine to allow you to run tasks on the Golem Network.
+
+This simple task requires you to install the Yagna daemon, configure access paths, ensure your environment has all 
+required elements and verify your setup is complete. The set-up will include installing all the necessary system packages, 
+installing the daemon itself, and making sure the executables are discoverable by your system. 
+Finally, run a verification script to ensure the setup is complete.
+
 
 ## Steps
 
-1. Followed the yagna daemon setup process available [here](https://docs.golem.network/creators/javascript/quickstart/), until yagna daemon is running, has funds and app key is created.
+1. Follow the yagna daemon setup process available [here](https://docs.golem.network/creators/javascript/quickstart/), until it is running, has funds, and the app key is created.
 2. Run a verification script:
    1. Go to the `yagna-setup` task directory in your repository fork
    2. Install dependencies by running `npm install`
    3. Run the verification script with `npm run verify`
-3. Inside the `yagna-setup` directory, add a generated `.json` file to your repository
+   4. Inside the `yagna-setup` directory, add a generated `.json` file to your repository
+3. Fill out the feedback form and publish changes in your repository fork
 
 ## Additional info
 

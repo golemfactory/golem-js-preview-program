@@ -4,32 +4,36 @@ Welcome to the Golem JS Code Crush repository!
 This repository contains a set of tasks that you can complete to broaden your knowledge and help improve the Golem Network. 
 By completing these tasks, you will help our team gather valuable feedback and suggestions on how to improve our ecosystem.
 
-## Getting Started
-To get started, follow these steps:
-1. Fork this repository and choose the tasks that interest you the most.
-2. For each task, take notes and measure the time needed to complete each checkpoint.
-3. Write down your notes in a feedback form in a Markdown file inside each task directory. If you think that screenshots might be useful in providing feedback, feel free to add them to the feedback.
+## To start:
 
-## Submitting Feedback
-Once you have completed the tasks, follow these steps to submit your feedback:
-1. Make sure that the feedback form in a Markdown file is filled for each task you would like to submit.
-2. Submit a "new issue" to this repository, providing a link to your repository fork. 
-3. The Golem team will review and evaluate your feedback, and reward you with GLM tokens for your future projects!
+1. Fork this repository.
+2. Choose tasks that are interesting to you.
+3. Make notes and record the time needed to accomplish each step within a task.  Please write these down inside the feedback form, which you will find in a Markdown file inside each task directory. 
+    - This information will be super useful for the Golem Team, especially your notes with feedback and suggestions to help make our ecosystem better. 
+    - You can also add screenshots to the feedback if you think they might be useful in providing feedback.
+
+## To submit:
+1. Make sure the feedback form in the Markdown file is completed for each of the tasks you’d like to submit.
+2. Submit a [“new issue”](https://github.com/golemfactory/golem-js-code-crush/issues/new/choose) to this repository, by choosing **Golem JS Code Crush Submission** template and providing a link to your repository fork.
+3. Our team will review and evaluate your feedback, then reward you with GLM reward for your future projects! (Legal terms apply, read more [here](#todo))
 
 ## Tasks
 The following are the tasks available:
 
-### Yagna Setup
+### [#0 - Yagna Setup](./yagna-setup/README.md)
 Install and configure the Yagna daemon on your machine to allow you to run tasks on the Golem Network.
 
-### Text2Speech
-Create a script that uses Golem to generate text-to-speech audio, allowing users to easily generate audio files without needing to install text-to-speech software locally.
+### #1 - Text2Speech
+Create a script that uses Golem to generate text-to-speech audio, allowing users to easily generate audio files without needing to install text-to-speech software locally. 
 
-### Code Sandbox
+### #2 - Code Sandbox
 Build a web-based code sandbox that can execute code on the Golem Network, allowing users to compile and execute code directly from their web browser.
 
-### Parallel File Conversion
+### #3 - Parallel File Conversion
 Create a Node.js script that uses Golem to perform image file conversions in parallel, allowing users to convert multiple images in different formats simultaneously.
 
-### Best Provider Selection
-Create a script that selects the best provider to run a Golem task based on factors such as price, reliability, and performance.
+### #4 - Best Provider Selection
+Create a Node.js script that selects the best provider to run a Golem task based on factors such as price, reliability, and performance. 
+
+### #5 - Text2Speech Server
+Prepare for a bigger scale and allow any user to interact with your API. This will serve as a gateway that schedules tasks on Golem and forwards the results. 
