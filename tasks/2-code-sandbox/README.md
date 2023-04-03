@@ -17,8 +17,11 @@ Build a web-based code sandbox that can execute code on the Golem Network, allow
 In this task, you will create a web page that will serve as a code sandbox for any language. You’ll also use Golem JS API in the browser to execute the code on the Golem Network. To start, you can use the provided node:16-alpine image but you should also create your own. Your system will support as many languages and as many images as you can prepare. Your tool should enable the user to paste the code, select a desired sandbox and run the core on a remote machine, finally providing the user with the execution output.
 
 > **Warning**
+> 
 > For this task, you will need to install Yagna Daemon with a version of at least 0.13-rc1, so that you don’t have issues with CORS!
+> 
 > To install the daemon in this version, use the script below:
+> 
 > `$ curl -sSf https://join.golem.network/as-requestor | YA_INSTALLER_CORE=pre-rel-v0.13.0-rc2 bash -`
 
 ## Steps:

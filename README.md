@@ -26,7 +26,7 @@ Install and configure the Yagna daemon on your machine to allow you to run tasks
 ### [#1 - Text2Speech](tasks%2F1-text-2-speech)
 Create a script that uses Golem to generate text-to-speech audio, allowing users to easily generate audio files without needing to install text-to-speech software locally. 
 
-### #2 - Code Sandbox
+### [#2 - Code Sandbox](tasks%2F2-code-sandbox)
 Build a web-based code sandbox that can execute code on the Golem Network, allowing users to compile and execute code directly from their web browser.
 
 ### #3 - Parallel File Conversion
