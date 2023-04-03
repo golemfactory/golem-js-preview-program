@@ -32,8 +32,8 @@ Build a web-based code sandbox that can execute code on the Golem Network, allow
 ### [#3 - Parallel File Conversion](tasks%2F3-parallel-file-conversion)
 Create a Node.js script that uses Golem to perform image file conversions in parallel, allowing users to convert multiple images in different formats simultaneously.
 
-### [#4 - Best Provider Selection](tasks%2F4-best-provider-selection)
-Create a Node.js script that selects the best provider to run a Golem task based on factors such as price, reliability, and performance. 
-
-### [#5 - Text2Speech Server](tasks%2F5-text-2-speech-server)
+### [#4 - Text2Speech Server](tasks%2F4-text-2-speech-server)
 Prepare for a bigger scale and allow any user to interact with your API. This will serve as a gateway that schedules tasks on Golem and forwards the results. 
+
+### [#5 - Best Provider Selection](tasks%2F5-best-provider-selection)
+Create a Node.js script that selects the best provider to run a Golem task based on factors such as price, reliability, and performance. 

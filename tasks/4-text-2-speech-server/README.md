@@ -1,4 +1,4 @@
-# #5 - Text2Speech Server
+# #4 - Text2Speech Server
 
 ## Why:
 Since managing providers and pooling resources is an important part of Golem’s higher-scale deployment, 

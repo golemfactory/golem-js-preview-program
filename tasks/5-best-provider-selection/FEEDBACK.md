@@ -5,7 +5,7 @@ Thank you for taking the time to complete this Golem JS Preview Program task!
 We appreciate your effort in helping us gather valuable feedback and suggestions on how to improve the Golem Network. 
 Please fill out the following form to provide your feedback and estimated completion times for each task step.
 
-## Task: #4 - Best Provider Selection
+## Task: #5 - Best Provider Selection
 
 ### Estimated completion time:
 | Task Step                     | Completion Time (in minutes) |
