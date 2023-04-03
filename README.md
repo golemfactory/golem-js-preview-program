@@ -1,6 +1,6 @@
-# Golem JS Code Crush
+# Golem JS Preview Program
 
-Welcome to the Golem JS Code Crush repository! 
+Welcome to the Golem JS Preview Program repository! 
 This repository contains a set of tasks that you can complete to broaden your knowledge and help improve the Golem Network. 
 By completing these tasks, you will help our team gather valuable feedback and suggestions on how to improve our ecosystem.
 
@@ -14,7 +14,7 @@ By completing these tasks, you will help our team gather valuable feedback and s
 
 ## To submit:
 1. Make sure the feedback form in the Markdown file is completed for each of the tasks you’d like to submit.
-2. Submit a [“new issue”](https://github.com/golemfactory/golem-js-code-crush/issues/new/choose) to this repository, by choosing **Golem JS Code Crush Submission** template and providing a link to your repository fork.
+2. Submit a [“new issue”](https://github.com/golemfactory/golem-js-preview-program/issues/new/choose) to this repository, by choosing **Golem JS Preview Program Submission** template and providing a link to your repository fork.
 3. Our team will review and evaluate your feedback, then reward you with GLM reward for your future projects! (Legal terms apply, read more [here](#todo))
 
 ## Tasks
@@ -29,7 +29,7 @@ Create a script that uses Golem to generate text-to-speech audio, allowing users
 ### [#2 - Code Sandbox](tasks%2F2-code-sandbox)
 Build a web-based code sandbox that can execute code on the Golem Network, allowing users to compile and execute code directly from their web browser.
 
-### #3 - Parallel File Conversion
+### [#3 - Parallel File Conversion](tasks%2F3-parallel-file-conversion)
 Create a Node.js script that uses Golem to perform image file conversions in parallel, allowing users to convert multiple images in different formats simultaneously.
 
 ### #4 - Best Provider Selection

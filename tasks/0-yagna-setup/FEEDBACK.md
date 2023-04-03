@@ -1,7 +1,7 @@
-# Golem JS Code Crush Feedback Form
+# Golem JS Preview Program Feedback Form
 
 ## Introduction
-Thank you for taking the time to complete this Golem SDK Community Feedback task! 
+Thank you for taking the time to complete this Golem JS Preview Program task! 
 We appreciate your effort in helping us gather valuable feedback and suggestions on how to improve the Golem Network. 
 Please fill out the following form to provide your feedback and estimated completion times for each task step.
 

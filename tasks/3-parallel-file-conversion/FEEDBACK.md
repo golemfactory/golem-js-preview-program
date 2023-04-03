@@ -5,13 +5,14 @@ Thank you for taking the time to complete this Golem JS Preview Program task!
 We appreciate your effort in helping us gather valuable feedback and suggestions on how to improve the Golem Network. 
 Please fill out the following form to provide your feedback and estimated completion times for each task step.
 
-## Task: #1 - Text2Speech
+## Task: #3 - Parallel File Conversion
 
 ### Estimated completion time:
-| Task Step                                                                                           | Completion Time (in minutes) |
-|-----------------------------------------------------------------------------------------------------|------------------------------|
-| Convert the docker image to a GVMI image and publish it to receive an image hash                    |                              |
-| Write a js script that will execute the text-2-speech conversion, available under the `npm run tts` |                              |
+| Task Step                                                                           | Completion Time (in minutes) |
+|-------------------------------------------------------------------------------------|------------------------------|
+| Convert the docker image to a GVMI image and publish it to receive an image hash    |                              |
+| Schedule a task on Golem with image conversion from Node.js context                 |                              |
+| [Challenge] Schedule a task on Golem with image conversion from the browser context |                              |
 
 ### Feedback:
 Please provide any feedback you have regarding each task step below:
@@ -20,7 +21,11 @@ Please provide any feedback you have regarding each task step below:
 
 [ENTER YOUR FEEDBACK HERE]
 
-#### Step 2: Write a js script that will execute the text-2-speech conversion, available under the `npm run tts`
+#### Step 2: Schedule a task on Golem with image conversion from Node.js context 
+
+[ENTER YOUR FEEDBACK HERE]
+
+#### Step 3: [Challenge] Schedule a task on Golem with image conversion from the browser context
 
 [ENTER YOUR FEEDBACK HERE]
 

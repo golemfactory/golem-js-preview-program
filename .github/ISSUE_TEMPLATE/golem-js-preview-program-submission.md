@@ -1,15 +1,15 @@
 ---
-name: Golem JS Code Crush Submission
+name: Golem JS Preview Program Submission
 about: Use this form to report your repository fork for evaluation
-title: "[Submission] Golem JS Code Crush"
+title: "[Submission] Golem JS Preview Program"
 labels: ''
 assignees: VanDavv
 
 ---
 
-# Golem JS Code Crush Submission by <your_username>
+# Golem JS Preview Program Submission by <your_username>
 
-Thank you for your Golem JS Code Crush Submission!
+Thank you for your Golem JS Preview Program Submission!
 
 Please make sure the feedback form in a Markdown file is filled for each of the tasks you’d like to submit!
 Also, please make sure you've read the terms and conditions for this competition available here - 
@@ -31,7 +31,7 @@ Please check (with `x`) the boxes below with the tasks you'd like to submit:
 - [ ] Text2Speech Server
 - [ ] Best Provider Selection
 
-## How was your experience with Golem JS Code Crush so far?
+## How was your experience with Golem JS Preview Program so far?
 
 [please answer here]
 
