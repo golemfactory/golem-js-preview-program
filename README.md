@@ -20,10 +20,10 @@ By completing these tasks, you will help our team gather valuable feedback and s
 ## Tasks
 The following are the tasks available:
 
-### [#0 - Yagna Setup](./yagna-setup/README.md)
+### [#0 - Yagna Setup](tasks%2F0-yagna-setup%2FREADME.md)
 Install and configure the Yagna daemon on your machine to allow you to run tasks on the Golem Network.
 
-### #1 - Text2Speech
+### [#1 - Text2Speech](tasks%2F1-text-2-speech%2FREADME.md)
 Create a script that uses Golem to generate text-to-speech audio, allowing users to easily generate audio files without needing to install text-to-speech software locally. 
 
 ### #2 - Code Sandbox

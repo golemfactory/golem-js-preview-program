@@ -1,0 +1,14 @@
+{
+  "name": "text-2-speech",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A script that uses Golem to generate text-to-speech audio",
+  "scripts": {
+    "tts": "node <your_script>.mjs"
+  },
+  "author": "Golem Factory GmbH",
+  "license": "MIT",
+  "dependencies": {
+    "yajsapi": "^0.7.0-alpha.0"
+  }
+}
