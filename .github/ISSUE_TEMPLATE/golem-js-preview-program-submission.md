@@ -25,7 +25,7 @@ In order to receive the award, we need a minimum info about you for legal reason
 
 There are two currencies you can receive a reward in - USD and GLM. Since GLM is our cryptocurrency, we provide an additional **10% bonus to all rewards paid in GLMs!**
 
-Choose the preferred currency by checking one of the boxes below:
+Choose the preferred currency by checking (with `x`) one of the boxes below:
 
 - [ ] USD
 - [ ] GLM (+10% bonus)
