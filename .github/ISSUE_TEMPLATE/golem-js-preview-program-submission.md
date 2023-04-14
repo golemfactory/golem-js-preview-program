@@ -14,7 +14,21 @@ Thank you for your Golem JS Preview Program Submission!
 Please make sure the feedback form in a Markdown file is filled for each of the tasks you’d like to submit!
 Also, please make sure you've read the terms and conditions for this competition available here - 
 
-To receive the award, you will also need to fill out our KYC for legal reasons.
+## Legal Info
+
+In order to receive the award, we need a minimum info about you for legal reasons:
+
+- Email: [please provide your email here]
+- Country of origin: [please provide your country here]
+
+## Preferred reward currency
+
+There are two currencies you can receive a reward in - USD and GLM. Since GLM is our cryptocurrency, we provide an additional **10% bonus to all rewards paid in GLMs!**
+
+Choose the preferred currency by checking one of the boxes below:
+
+- [ ] USD
+- [ ] GLM (+10% bonus)
 
 ## Repository link
 
