@@ -38,7 +38,6 @@ Choose the preferred currency by checking (with `x`) one of the boxes below:
 
 Please check (with `x`) the boxes below with the tasks you'd like to submit:
 
-- [ ] Yagna Setup
 - [ ] Text2Speech
 - [ ] Code Sandbox
 - [ ] Parallel File Conversion

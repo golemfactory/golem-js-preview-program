@@ -20,7 +20,7 @@ By completing these tasks, you will help our team gather valuable feedback and s
 ## Tasks
 The following are the tasks available:
 
-### [#0 - Yagna Setup](tasks%2F0-yagna-setup)
+### [#0 - Yagna Setup (optional)](tasks%2F0-yagna-setup)
 Install and configure the Yagna daemon on your machine to allow you to run tasks on the Golem Network.
 
 ### [#1 - Text2Speech](tasks%2F1-text-2-speech)
