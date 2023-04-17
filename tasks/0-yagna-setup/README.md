@@ -22,7 +22,7 @@ Finally, run a verification script to ensure the setup is complete.
    2. Install dependencies by running `npm install`
    3. Run the verification script with `npm run verify`
    4. Inside the `yagna-setup` directory, add a generated `.json` file to your repository
-3. Fill out the feedback form and publish changes in your repository fork
+3. Publish changes in your repository fork
 
 ## Additional info
 
