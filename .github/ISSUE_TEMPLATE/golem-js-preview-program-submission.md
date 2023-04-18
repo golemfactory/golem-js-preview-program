@@ -23,12 +23,14 @@ In order to receive the award, we need a minimum info about you for legal reason
 
 ## Preferred reward currency
 
-There are two currencies you can receive a reward in - USD and GLM. Since GLM is our cryptocurrency, we provide an additional **10% bonus to all rewards paid in GLMs!**
+There are two currencies you can receive a reward in - USD and GLM. Since GLM is our cryptocurrency, we provide an additional **10% bonus to all rewards paid in GLMs!**.
 
 Choose the preferred currency by checking (with `x`) one of the boxes below:
 
 - [ ] USD
 - [ ] GLM (+10% bonus)
+
+Please note that if you already have an accepted assignment from any of the freelance websites (e.g. fiverr.com, freelancer.com, upwork.com), you need to choose a reward in USD.
 
 ## Repository link
 
@@ -43,6 +45,17 @@ Please check (with `x`) the boxes below with the tasks you'd like to submit:
 - [ ] Parallel File Conversion
 - [ ] Text2Speech Server
 - [ ] Best Provider Selection
+
+## How did you find out about Golem JS Preview Program? Please check (with `x`) the correct box below:
+
+- [ ] fiverr.com 
+- [ ] freelancer.com
+- [ ] upwork.com
+- [ ] Digital Campaign (e.g. Reddit)
+- [ ] Golem Network profiles
+- [ ] Message on LinkedIn
+- [ ] Other: [please answer here]
+
 
 ## How was your experience with Golem JS Preview Program so far?
 
