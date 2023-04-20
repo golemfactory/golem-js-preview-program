@@ -11,7 +11,7 @@ you can evaluate offers received from the network and pick the best provider usi
 Create a Node.js script that selects the best provider to run a Golem task based on factors such as price, reliability, and performance. 
 
 The script will run a simple benchmarking task first (i.e. blender rendering of 1 scene) on multiple providers that fit your demands, 
-then calculate data transfer times, computing time and final costs and use this data together to identify 
+then measure computing time and final costs and use this data together to identify 
 the best provider to run the final task (e.g. blender rendering of more scenes). 
 
 You could also keep a list of any benchmarking data about providers in a file for future use.
