@@ -49,6 +49,8 @@ Once the generation is complete, an audio file is sent back to the user.
 4. Add changes in the `text-2-speech` directory
 5. [Fill out the feedback form](./FEEDBACK.md) and publish changes in your repository fork
 
+---
+
 ## How to express interest in completing this task as part of the JS Preview Program?
 
 1. Choose one platform through which we will settle your work - you decide which platform is more convenient for you:
