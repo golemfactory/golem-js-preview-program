@@ -48,9 +48,9 @@ Create a Node.js script that selects the best provider to run a Golem task based
 ## How to express interest in completing selected task(s) as part of the JS Preview Program?
 
 1. Choose one platform through which we will settle your work - you decide which platform is more convenient for you:
-  - [Freelancer.com](https://freelancer.com): [Task #1](#) | [Task #2](#) | [Task #3](#) | [Task #4](#) | [Task #5](#)
-  - [Upwork.com](https://upwork.com): [Task #1](#) | [Task #2](#) | [Task #3](#) | [Task #4](#) | [Task #5](#)
-  - [Fiverr.com](https://fiverr.com): [Task #1](#) | [Task #2](#) | [Task #3](#) | [Task #4](#) | [Task #5](#)
+  - Freelancer.com: [Task #1](#) | [Task #2](#) | [Task #3](#) | [Task #4](#) | [Task #5](#)
+  - Upwork.com: [Task #1](#) | [Task #2](#) | [Task #3](#) | [Task #4](#) | [Task #5](#)
+  - Fiverr.com: [Task #1](#) | [Task #2](#) | [Task #3](#) | [Task #4](#) | [Task #5](#)
 
 2. Reply to a task brief on a selected platform and tell us a few words about your experience in JS development - we need to know you are the right person! Based on your experience, we will select testers to help us improve our JS API.
 3. Once your application has been accepted, you can proceed with the task.

@@ -24,8 +24,8 @@ We also encourage you to visit https://www.golem.network/, where you can find mo
 
 ### Why:
 
-Golem allows you to schedule tasks with any payload. This includes GVMI image hash, where GVMI is created from a Docker 
-while a hash is obtained by publishing the GVMI to the Golem Image Repository.
+Golem allows you to schedule tasks with any payload. This includes GVMI image hash, where 
+[GVMI is created from a Docker while a hash is obtained by publishing the GVMI to the Golem Image Repository.](https://handbook.golem.network/requestor-tutorials/vm-runtime/convert-a-docker-image-into-a-golem-image)
 This hash (and hence the image) represents the execution environment for your tasks and services and is required by both 
 dApps and JS/Python APIs. But since a hash is just a string, it’s possible to schedule tasks with JS API directly from 
 the browser with any payload, unlocking a possibility e.g. to compile C++ and/or execute the binary file for results, 
@@ -48,7 +48,7 @@ In this task, you will create a web page that will serve as a code sandbox for a
 
 ### Steps:
 
-1. Convert the docker image to a GVMI image and publish it to receive an image hash
+1. Convert the docker image to a [GVMI image](https://handbook.golem.network/requestor-tutorials/vm-runtime/convert-a-docker-image-into-a-golem-image) and publish it to receive an image hash
 2. Create an HTML template with textarea for code input and a select element to choose a desired image hash to be used as an execution environment
 3. Add a code in Golem JS API that takes the provided code and image hash to execute it on Golem Network and return execution output
 4. Execution output is displayed to the user

@@ -50,7 +50,7 @@ base64 converted, chunked, and sent as strings within the task, both as input an
 
 ### Steps:
 
-1. Convert the docker image to a GVMI image and publish it to receive an image hash
+1. Convert the docker image to a [GVMI image](https://handbook.golem.network/requestor-tutorials/vm-runtime/convert-a-docker-image-into-a-golem-image) and publish it to receive an image hash
 2. Create a logic that schedules a task on Golem with image conversion, executed either from Node.js or browser context 
     - To start, follow this article as a reference - https://docs.golem.network/creators/javascript/examples/hello/
     - Use the `map` or `forEach` method of the `TaskExecutor`, pass n (n depending on the number of image formats) worker functions, each of which will execute the file conversion command on the provider. 
