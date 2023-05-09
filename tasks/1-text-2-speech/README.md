@@ -8,7 +8,7 @@ If you have any questions, we encourage you to contact the SDK team directly, wh
 in the documentation or fill in any gaps in your knowledge about the Golem Network platform - join our community on 
 [Discord](https://chat.golem.network/) - find the `#js-discussion` channel in the SDK section. 
 
-We also encourage you to visit https://www.golem.network/, where you can find more basic information about our open source project.
+We also encourage you to visit https://www.golem.network/, where you can find more basic information about our open-source project.
 
 **Below you will find the following information:**
 
@@ -65,7 +65,7 @@ Once the generation is complete, an audio file is sent back to the user.
 
 ## How to report completing this task?
 
-1. After completing all the steps outlined in ["Task Details"](#task-details), return to the selected billing platform (Freelancer / Upwork / Feverr) and, in response to the task, send your **GitHub username** and the **email address provided in the GitHub submission form.
+1. After completing all the steps outlined in ["Task Details"](#task-details), return to the selected billing platform (Freelancer / Upwork / Fiverr) and, in response to the task, send your **GitHub username** and the **email address** provided in the GitHub submission form.
 2. Next, an SDK department employee will verify your task. We will reject feedback such as "Ok." or "Cool." We value honest and helpful feedback, which is the goal of this program.
 3. How do we determine if feedback is valid? We seek feedback that has a groundbreaking nature or has a potential impact on the Golem platform. For example, it can include the most challenging issue (technical or functional) you faced during the implementation of the particular task(s) and the steps you took to solve it.
 4. Once your feedback is approved, we will make a payment.
@@ -95,8 +95,8 @@ can be found at **https://preview.golem.network/**
 
 **What is the Golem Network?**
 
-We are building a new open source world that everyone has the right to enter. 
-The Golem Network is a flexible and open source platform that harnesses the power of decentralization for 
+We are building a new open-source world that everyone has the right to enter. 
+The Golem Network is a flexible and open-source platform that harnesses the power of decentralization for 
 accessing and sharing computational resources.
 
 **Our new Golem JS Api lets you:**
