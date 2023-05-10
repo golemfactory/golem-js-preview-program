@@ -31,17 +31,27 @@ Install and configure the Yagna daemon on your machine to allow you to run tasks
 ### [Task #1 - Text2Speech](tasks%2F1-text-2-speech)
 Create a script that uses Golem to generate text-to-speech audio, allowing users to easily generate audio files without needing to install text-to-speech software locally. 
 
+**Guaranteed reward** for first 40 accepted submissions: **50$**
+
 ### [Task #2 - Code Sandbox](tasks%2F2-code-sandbox)
 Build a web-based code sandbox that can execute code on the Golem Network, allowing users to compile and execute code directly from their web browser.
+
+**Guaranteed reward** for first 40 accepted submissions: **60$**
 
 ### [Task #3 - Parallel File Conversion](tasks%2F3-parallel-file-conversion)
 Create a Node.js script that uses Golem to perform image file conversions in parallel, allowing users to convert multiple images in different formats simultaneously.
 
+**Guaranteed reward** for first 40 accepted submissions: **70$** (or **100$** if completed together with an additional challenge)
+
 ### [Task #4 - Text2Speech Server](tasks%2F4-text-2-speech-server)
 Prepare for a bigger scale and allow any user to interact with your API. This will serve as a gateway that schedules tasks on Golem and forwards the results. 
 
+**Guaranteed reward** for first 30 accepted submissions: **80$**
+
 ### [Task #5 - Best Provider Selection](tasks%2F5-best-provider-selection)
 Create a Node.js script that selects the best provider to run a Golem task based on factors such as price, reliability, and performance. 
+
+**Guaranteed reward** for first 30 accepted submissions: **100$**
 
 ---
 

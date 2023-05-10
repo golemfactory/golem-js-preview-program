@@ -65,6 +65,8 @@ You could also keep a list of any benchmarking data about providers in a file fo
 3. How do we determine if feedback is valid? We seek feedback that has a groundbreaking nature or has a potential impact on the Golem platform. For example, it can include the most challenging issue (technical or functional) you faced during the implementation of the particular task(s) and the steps you took to solve it.
 4. Once your feedback is approved, we will make a payment.
 
+**Guaranteed reward** for first 30 accepted submissions: **100$**
+
 ---
 
 ## How will we distribute over $2500 in additional funds to creators of the most valuable feedback?
