@@ -82,8 +82,8 @@ and resourcefulness. So, let's hear all the juicy details to help make Golem eve
 The authors of the most valuable feedback will receive even more money, with a **prize pool of over $2500 up for grabs**.
 
 And remember - if you want to simply earn more, just do more tasks! 
-The list and descriptions of all of the tasks + the terms & conditions of the additional competition (PRIZE POOL over $2500!) 
-can be found at **https://preview.golem.network/**
+[The list and descriptions of all of the tasks](../../README.md#available-tasks) + [the terms & conditions](../../TERMS_AND_CONDITIONS.md) of the additional competition (PRIZE POOL over $2500!) 
+can also be found at **https://preview.golem.network/**
 
 ---
 

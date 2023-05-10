@@ -84,8 +84,8 @@ and resourcefulness. So, let's hear all the juicy details to help make Golem eve
 The authors of the most valuable feedback will receive even more money, with a **prize pool of over $2500 up for grabs**.
 
 And remember - if you want to simply earn more, just do more tasks! 
-The list and descriptions of all of the tasks + the terms & conditions of the additional competition (PRIZE POOL over $2500!) 
-can be found at **https://preview.golem.network/**
+[The list and descriptions of all of the tasks](#available-tasks) + [the terms & conditions](./TERMS_AND_CONDITIONS.md) of the additional competition (PRIZE POOL over $2500!) 
+can also be found at **https://preview.golem.network/**
 
 ---
 
@@ -96,6 +96,7 @@ can be found at **https://preview.golem.network/**
 - Need help? Go to https://chat.golem.network/ & find the `#js-discussion` channel in the SDK section
 - Official Golem Network website: https://www.golem.network/
 - Want to join our team? https://www.golem.network/careers 
+- Terms and conditions: https://github.com/golemfactory/golem-js-preview-program/blob/master/TERMS_AND_CONDITIONS.md
 
 **What is the Golem Network?**
 
