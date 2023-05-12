@@ -4,7 +4,7 @@
   "type": "module",
   "description": "A script that uses Golem to generate text-to-speech audio",
   "scripts": {
-    "tts": "node <your_script>.mjs"
+    "tts": "node main.mjs"
   },
   "author": "Golem Factory GmbH",
   "license": "MIT",

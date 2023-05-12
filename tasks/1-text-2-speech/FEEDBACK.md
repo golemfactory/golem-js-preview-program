@@ -8,10 +8,10 @@ Please fill out the following form to provide your feedback and estimated comple
 ## Task: #1 - Text2Speech
 
 ### Estimated completion time:
-| Task Step                                                                                           | Completion Time (in minutes) |
-|-----------------------------------------------------------------------------------------------------|------------------------------|
-| Convert the docker image to a GVMI image and publish it to receive an image hash                    |                              |
-| Write a js script that will execute the text-2-speech conversion, available under the `npm run tts` |                              |
+| Task Step                                                                                                    | Completion Time (in minutes) |
+|--------------------------------------------------------------------------------------------------------------|------------------------------|
+| Convert the docker image to a GVMI image and publish it to receive an image hash                             |                              |
+| Modify a `main.mjs` script that will execute the text-2-speech conversion, available under the `npm run tts` |                              |
 
 ### Feedback:
 Please provide any feedback you have regarding each task step below:
@@ -20,7 +20,7 @@ Please provide any feedback you have regarding each task step below:
 
 [ENTER YOUR FEEDBACK HERE]
 
-#### Step 2: Write a js script that will execute the text-2-speech conversion, available under the `npm run tts`
+#### Step 2: Modify a `main.mjs` script that will execute the text-2-speech conversion, available under the `npm run tts`
 
 [ENTER YOUR FEEDBACK HERE]
 

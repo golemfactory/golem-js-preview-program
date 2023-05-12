@@ -43,8 +43,8 @@ Once the generation is complete, an audio file is sent back to the user.
 
 ### Steps
 
-1. Convert the docker image to a [GVMI image](https://handbook.golem.network/requestor-tutorials/vm-runtime/convert-a-docker-image-into-a-golem-image) and publish it to receive an image hash
-2. Write a js script that will execute the text-2-speech conversion task and will be available under the `npm run tts` command
+1. Create a docker image from provided Dockerfile, convert it to a [GVMI](https://handbook.golem.network/requestor-tutorials/vm-runtime/convert-a-docker-image-into-a-golem-image) and publish the generated image to receive an image hash that will be used during the implementation
+2. Modify the `main.mjs` script that will execute the text-2-speech conversion task and will be available under the `npm run tts` command ([Check our docs for introduction and examples](https://docs.golem.network/creators/javascript/high-level/))
 3. Run the script and verify the output 
 4. Add changes in the `text-2-speech` directory
 5. [Fill out the feedback form](./FEEDBACK.md) and publish changes in your repository fork
