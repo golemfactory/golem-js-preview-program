@@ -16,7 +16,6 @@ Please fill out the following form to provide your feedback and estimated comple
 | Scale number of contracted providers as more requests are received    |             150+               |
 
 ### Feedback:
-Please provide any feedback you have regarding each task step below:
 
 #### Step 1: Create a script that will start HTTP server on port 3000
 
@@ -46,13 +45,17 @@ Now comes the interesting part. While doing this step I went through the Golem N
 **It is very clearly obvious that the API reference of Golem JS is very below par of what is now an industry standard.**
 
 ## General feedback:
-Is there anything else you'd like to share about your experience 
-completing this task or using the Golem Network in general? 
 
+As a software developer / hobbyist I found Golem a very unique project. With lots of potential and possibilities, Golem can be a great ecosystem for computing and to some extent it is. But it will truly shine when developers build innovative and unique applicaitons on top of Golem. I congratulate and wish the Golem team best of luck for further improvments in the system.
 
 
 ### Suggestions for Improvement
+For me, as a developer, the only pain point is the documentation (as I have described above). I suggest the whole documentation to be completely rewritten in a manner that enabled developers to take golem to the next level. And that responsibility falls on the Golem's core team. Otherwise a great product / ecosystem will perish. Other than that everything is in order. ✌️
 
-[Insert any suggestions you have for improving the task or our ecosystem here]
+Available Resources:
+![Screenshot 2023-05-16 233707](https://github.com/lightify97/golem-js-preview-program/assets/16276964/ac72f991-3ec6-43d6-8698-c69e4539a657)
+Usage (Only 24%):
+![Screenshot 2023-05-16 233923](https://github.com/lightify97/golem-js-preview-program/assets/16276964/7dd177cc-7e92-408b-837d-f0498541d40e)
+
 
 Thank you for your feedback and for contributing to the Golem Network!
