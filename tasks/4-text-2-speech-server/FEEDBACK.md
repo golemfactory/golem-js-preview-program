@@ -13,7 +13,7 @@ Please fill out the following form to provide your feedback and estimated comple
 | Create a script that will start HTTP server on port 3000              |             5                |
 | Create a `/tts` endpoint that accepts `q` query param with input text |             2                |
 | Schedule task with received text to be converted on Golem Network     |             20               |
-| Scale number of contracted providers as more requests are received    |             ∞                |
+| Scale number of contracted providers as more requests are received    |             150+               |
 
 ### Feedback:
 Please provide any feedback you have regarding each task step below:
@@ -32,13 +32,24 @@ The documentation had some good examples to illustrate this task so following th
 
 #### Step 4: Scale number of contracted providers as more requests are received
 Now comes the interesting part. While doing this step I went through the Golem Network and JS API docs available at https://handbook.golem.network/ to search for any possible clue. While the documentation is written in a good style, I felt that documentation is not serving it's purpose i.e to TEACH how to make great applicaitons / products utilizing the strengths of Golem Network. Below are some of the points I noticed about documentation.
-  *  Firstly the docs are very disorganized. 
+  *  Firstly the documentation is very disorganized. Usually technical documentation follows a pattern i.e there's a guide / tutorial and then there's API documentataion. But here everything is mixed up, leading to more confusion even about simple concepts.
+  *  A few tutorials / recepies that are present are not very well articulated. Rare code that is available in the docs is not very well explained.
+  *  The API documentation is very **poor**. This can mean the difference between life and death for any project. Let me show with an example. Below we are seeing a snippet from Next.js' API documentation. As we can see there's a very crisp and precise explanation along with some example code.
+  
+![Next.js API Docs Example](https://github.com/lightify97/golem-js-preview-program/assets/16276964/4aa5453a-7bbc-4fba-b285-844a5fa70a61)
+                                       
+   Now let's us see the Golem's JS API reference.
+   ![golem-1](https://github.com/lightify97/golem-js-preview-program/assets/16276964/c113ab6e-403c-4b04-869f-10395dbbde38)
+![golem-2](https://github.com/lightify97/golem-js-preview-program/assets/16276964/136f02ef-46d7-4367-bb2b-8bd94ffa5900)
+
+
+**It is very clearly obvious that the API reference of Golem JS is very below par of what is now an industry standard.**
 
 ## General feedback:
 Is there anything else you'd like to share about your experience 
 completing this task or using the Golem Network in general? 
 
-[ENTER YOUR FEEDBACK HERE]
+
 
 ### Suggestions for Improvement
 
