@@ -3,8 +3,13 @@
   "dependencies": {
     "yajsapi": "^0.7.0-alpha.0"
   },
-  "name": "golem-tutorial-js",
+  "scripts": {
+    "tts": "node main.js"
+  },
+  "description": "A script that uses Golem to generate parallel file conversion",
+  "name": "parallel-file-conversion",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "main.js",
+  "author": "Golem Factory GmbH",
   "license": "MIT"
 }

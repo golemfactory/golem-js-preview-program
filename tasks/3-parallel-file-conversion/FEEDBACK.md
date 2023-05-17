@@ -13,8 +13,8 @@ Please fill out the following form to provide your feedback and estimated comple
 | Task Step                                                                           | Completion Time (in minutes) |
 | ----------------------------------------------------------------------------------- | ---------------------------- |
 | Convert the docker image to a GVMI image and publish it to receive an image hash    | 198 minutes                  |
-| Schedule a task on Golem with image conversion from Node.js context                 |  250 minutes                  |
-| [Challenge] Schedule a task on Golem with image conversion from the browser context |    204 minuts                 |
+| Schedule a task on Golem with image conversion from Node.js context                 | 250 minutes                  |
+| [Challenge] Schedule a task on Golem with image conversion from the browser context | 204 minuts                   |
 
 ### Feedback:
 
@@ -22,72 +22,79 @@ Please provide any feedback you have regarding each task step below:
 
 #### Step 1: Convert the docker image to a GVMI image and publish it to receive an image hash
 
-- It is not clear if the program execution failure is related to the docker image to GVMI conversion or publishing process. However, if the GVMI image is required for the task execution, it is important to ensure that the conversion is done correctly and the image hash is received successfully. It may be helpful to provide more information about the specific error message received during the program execution to determine if the issue is related to the image conversion or publishing process.
+- In order to cover docker image to a GVMI image and Publish first i installed the latest version of gvmkit-build using the pip install gvmkit-build command. This command installs the gvmkit-build package, which is a tool used to create GVMI images for use with Golem.
+
+After installing gvmkit-build, I attempted to create the Golem image using the command gvmkit-build golem-example:latest. However, I encountered an error during this process.the error could be related to a problem with the Docker API client or with the version of gvmkit-build that I installed.
+
+becouse of i encountered this error I take few troubleshooting steps then I tried again.updates by running the pip install --upgrade gvmkit-build command.
+The problem is happened in Docker API client. becouse of I get error docker.errors.DockerException: Error while fetching server API version: HTTPConnection.request() got an unexpected keyword argument 'chunked'
 
 #### Step 2: Schedule a task on Golem with image conversion from Node.js context
 
-- It seems like the task is being sent to a provider named "azathoth-rnd.h" and is failing multiple times with different error messages. Before scheduling the task, it is important to ensure that the provider's configuration meets the task's requirements and the necessary dependencies are installed. It may be helpful to review the error messages received during the task execution to determine the root cause of the issue.
+- I Created a Node.js(Main.js) script that uses Golem to perform image file conversions in parallel, allowing users to convert multiple images in different formats simultaneously , there are some step that i followed to answer the feedback
 
-#### Step 3: [Challenge] Schedule a task on Golem with image conversion from the browser context
-
-- It is not clear if the program or task requires image conversion from the browser context. However, if this is the case, it is important to ensure that the task's requirements are met and the necessary dependencies are installed on the provider's system. Additionally, it may be helpful to review the provider's configuration to determine if any potential issues may impact the program execution.
-
-## General feedback:
-I Created a Node.js script that uses Golem to perform image file conversions in parallel, allowing users to convert multiple images in different formats simultaneously , there are some step that i followed to answer the feedback
 1. I Installed Golem on my system and created an account.
 2. I Created a Node.js script that reads the input image files and their formats.
 3. I Divided the input images into multiple batches based on the number of available cores in my system.
 4. I Use Golem's API to submit each batch of images to the Golem network for processing.
 5. Wait for the results from Golem and merge them into a single output file.
 
-I attached the code  that demonstrates how you can I used Golem to convert multiple images in parallel, you provided me foreach and Map method to use , I choose map method:
-
+I attached the code that demonstrates how you can I used Golem to convert multiple images in parallel, you provided me foreach and Map method to use , I choose map method:
 
 const { Golem } = require('@golem/core');
 
 async function convertImages(images) {
-  const golem = new Golem();
-  const tasks = [];
+const golem = new Golem();
+const tasks = [];
 
-  // Divide images into batches
-  const batchSize = Math.ceil(images.length / golem.cores);
-  const batches = [];
-  for (let i = 0; i < images.length; i += batchSize) {
-    batches.push(images.slice(i, i + batchSize));
-  }
-
-  // Submit batches to Golem
-  for (const batch of batches) {
-    const task = await golem.tasks.create({
-      image: 'golems/image-converter',
-      command: `convert ${batch.join(' ')} -resize 50% output.jpg`,
-    });
-    tasks.push(task);
-  }
-
-  // Wait for results and merge them
-  const outputs = await Promise.all(tasks.map(task => task.wait()));
-  const mergedOutput = Buffer.concat(outputs);
-
-  return mergedOutput;
+// Divide images into batches
+const batchSize = Math.ceil(images.length / golem.cores);
+const batches = [];
+for (let i = 0; i < images.length; i += batchSize) {
+batches.push(images.slice(i, i + batchSize));
 }
 
-// This is the exaple I used to  I used  Golem to perform image file conversions in parallel
+// Submit batches to Golem
+for (const batch of batches) {
+const task = await golem.tasks.create({
+image: 'golems/image-converter',
+command: `convert ${batch.join(' ')} -resize 50% output.jpg`,
+});
+tasks.push(task);
+}
+
+// Wait for results and merge them
+const outputs = await Promise.all(tasks.map(task => task.wait()));
+const mergedOutput = Buffer.concat(outputs);
+
+return mergedOutput;
+}
+
+// This is the exaple I used to I used Golem to perform image file conversions in parallel
 const images = ['image1.jpg', 'image2.png', 'image3.gif'];
 convertImages(images).then(output => {
-  console.log('Output file:', output);
+console.log('Output file:', output);
 }).catch(error => {
-  console.error('Error:', error);
+console.error('Error:', error);
 });
 
+<!-- Note  -->
 
-//Additional seggestion
-- It is important to provide more context and details about the program and the task in order to accurately diagnose and troubleshoot any issues. Providing specific error messages or logs can be helpful in identifying the root cause of the issue.
-- It may be helpful to provide more information about the provider's configuration and the task's requirements to determine the root cause of the program execution failure.
+The above feedback script is for image conversion i changed to file conversion in Main.js please refer it.
+The problem I encontered is realted apiKey it says undefined first in config.js then I updated by directly assign the environmental key instead of importing from .env
+
+This task excuted seccsfuly after a lot of try
+
+#### Step 3: [Challenge] Schedule a task on Golem with image conversion from the browser context
+
+One of the most common challenges I faced when scheduling a task on Golem with image conversion from the browser context is ensuring that the correct browser and version we used. in my point of view Different browsers and versions may have different capabilities and requirements for image conversion, so it is important to carefully select and configure the browser to ensure that the task can be completed successfully. Additionally, issues is with network connectivity
+
+## General feedback:
+
+The example given in Quickstart is highly beneficial for familiarizing oneself with the task. However, it is crucial to document the file in one PDF and write the steps in a clear manner. It took me an hour to become familiar with the task.
 
 ### Suggestions for Improvement
 
 - Provide more information about the program and the task, including any specific requirements and dependencies.
-- Provide more details about the provider's configuration and any potential issues that may be impacting the program execution. Additionally, providing specific error messages or logs can help in identifying the root cause of the issue.
-
-Thank you for your feedback and for contributing to the Golem Network!
+- Provide more details about the provider's configuration and any potential issues that may be impacting the program execution.
+  Thank you for your feedback and for contributing to the Golem Network!
