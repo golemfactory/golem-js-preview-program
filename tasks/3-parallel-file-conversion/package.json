@@ -1,0 +1,10 @@
+{
+  "type": "module",
+  "dependencies": {
+    "yajsapi": "^0.7.0-alpha.0"
+  },
+  "name": "golem-tutorial-js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
+}
