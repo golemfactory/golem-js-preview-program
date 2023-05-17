@@ -31,6 +31,11 @@ The problem is happened in Docker API client. becouse of I get error docker.erro
 
 #### Step 2: Schedule a task on Golem with image conversion from Node.js context
 
+This Task done seccsfully : the code excuted in main.js
+image.png
+
+if that is not work for you please use this step to excute in other ways.
+
 - I Created a Node.js(Main.js) script that uses Golem to perform image file conversions in parallel, allowing users to convert multiple images in different formats simultaneously , there are some step that i followed to answer the feedback
 
 1. I Installed Golem on my system and created an account.
