@@ -12,9 +12,9 @@ Please fill out the following form to provide your feedback and estimated comple
 
 | Task Step                                                                           | Completion Time (in minutes) |
 | ----------------------------------------------------------------------------------- | ---------------------------- |
-| Convert the docker image to a GVMI image and publish it to receive an image hash    | 104.6s or 1.7433333 minutes  |
-| Schedule a task on Golem with image conversion from Node.js context                 |                              |
-| [Challenge] Schedule a task on Golem with image conversion from the browser context |                              |
+| Convert the docker image to a GVMI image and publish it to receive an image hash    | 198 minutes                  |
+| Schedule a task on Golem with image conversion from Node.js context                 |  250 minutes                  |
+| [Challenge] Schedule a task on Golem with image conversion from the browser context |    204 minuts                 |
 
 ### Feedback:
 
