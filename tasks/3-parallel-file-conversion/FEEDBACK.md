@@ -32,7 +32,8 @@ The problem is happened in Docker API client. becouse of I get error docker.erro
 #### Step 2: Schedule a task on Golem with image conversion from Node.js context
 
 This Task done seccsfully : the code excuted in main.js
-image.png
+![image](https://github.com/tewodrosGirmaA/golem-js-preview-program/assets/118253010/41308db8-7887-4591-8c01-4e0cf3af64ca)
+
 
 if that is not work for you please use this step to excute in other ways.
 
