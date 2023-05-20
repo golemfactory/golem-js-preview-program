@@ -30,3 +30,45 @@ class FileConversionTask {
 
 const task = new FileConversionTask();
 task.run();
+
+// I have provided three code I haven't that much understand the question and tasks  becouse of this I provided three code
+
+// The Third code as alterenetive is like this:
+
+// const { TaskExecutor } = require("@golem.network/golem-client-js");
+
+// const imageFormats = ["jpeg", "png", "gif"];
+
+// const task = async (context, input) => {
+//   const { format } = input;
+
+//   const command = `convert input.${format} output.gvmi`;
+
+//   // Execute file conversion command on the provider
+//   const result = await context.execute(command);
+
+//   return {
+//     output: result.stdout,
+//     error: result.stderr,
+//   };
+// };
+
+// const main = async () => {
+//   const executor = new TaskExecutor();
+
+//   // Schedule task on Golem network
+//   const results = await Promise.all(
+//     imageFormats.map((format) =>
+//       executor.map(
+//         task,
+//         { format },
+//         { timeout: 300, memory: 512 },
+//         { retries: 3 }
+//       )
+//     )
+//   );
+
+//   console.log(results);
+// };
+
+// main();
