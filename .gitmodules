@@ -1,0 +1,3 @@
+[submodule "tasks/4-text-2-speech-server/golem-task-4"]
+	path = tasks/4-text-2-speech-server/golem-task-4
+	url = https://github.com/lightify97/golem-task-4
