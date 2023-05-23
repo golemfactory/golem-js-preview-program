@@ -1,9 +1,5 @@
-FROM alpine:3.14
-RUN apk add --no-cache ffmpeg espeak
+FROM synesthesiam/marytts:5.2
 VOLUME /golem/input /golem/output
 WORKDIR /golem/work
 
-# Here is an example how you can use an espeak command.
-# Execute this command (with user-provided text input) in your script to generate the audio file from text
-#
-# RUN espeak "Hello Golem" -w /golem/output/result.wav && ffmpeg -i /golem/output/result.wav /golem/output/result.mp3
+
