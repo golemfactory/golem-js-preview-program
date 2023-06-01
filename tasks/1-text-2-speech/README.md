@@ -49,6 +49,12 @@ Once the generation is complete, an audio file is sent back to the user.
 4. Add changes in the `text-2-speech` directory
 5. [Fill out the feedback form](./FEEDBACK.md) and publish changes in your repository fork
 
+
+### Useful links to solve this task
+
+- https://docs.golem.network/creators/javascript/high-level/task-model/
+- https://docs.golem.network/creators/javascript/examples/hello/
+
 ---
 
 ## How to express interest in completing this task as part of the JS Preview Program?

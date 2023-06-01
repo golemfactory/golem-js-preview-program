@@ -44,6 +44,13 @@ You could also keep a list of any benchmarking data about providers in a file fo
 2. Create an `execute.js` script that renders 20 frames on one of the top 3 providers, which has been selected based on the results achieved during the benchmarking stage. Script should wait for offer from one of the providers with selected ID, and if there are no matching offers in a certain time window, a task should be cancelled.
 3. [Fill out the feedback form](./FEEDBACK.md) and publish changes in your repository fork
 
+### Useful links to solve this task
+
+- https://docs.golem.network/creators/javascript/mid-level/examples/hello/
+- https://docs.golem.network/creators/javascript/mid-level/
+- https://docs.golem.network/creators/javascript/docs/
+- https://docs.golem.network/creators/javascript/docs/readme/
+
 ---
 
 ## How to express interest in completing this task as part of the JS Preview Program?

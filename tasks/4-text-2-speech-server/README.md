@@ -46,6 +46,13 @@ This allows the REST API to respond more quickly to new requests.
 4. The number of contracted providers scales when the endpoint receives more requests, so text-to-speech conversion happens in parallel
 5. [Fill out the feedback form](./FEEDBACK.md) and publish changes in your repository fork
 
+### Useful links to solve this task
+
+- https://docs.golem.network/creators/javascript/high-level/task-model/
+- https://docs.golem.network/creators/javascript/examples/hello/
+- https://docs.golem.network/creators/javascript/examples/simple/
+- https://docs.golem.network/creators/javascript/examples/hashcat/
+
 ---
 
 ## How to express interest in completing this task as part of the JS Preview Program?

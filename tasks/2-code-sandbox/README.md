@@ -40,11 +40,15 @@ In this task, you will create a web page that will serve as a code sandbox for a
 
 > **Warning**
 > 
-> For this task, you will need to install Yagna Daemon with a version of at least 0.13-rc1, so that you don’t have issues with CORS!
+> For this task, you will need to install Yagna Daemon with a version of at least 0.13-rc2, so that you don’t have issues with CORS!
 > 
 > To install the daemon in this version, use the script below:
 > 
 > `$ curl -sSf https://join.golem.network/as-requestor | YA_INSTALLER_CORE=pre-rel-v0.13.0-rc2 bash -`
+> 
+> To start the daemon with CORS support, run the script below
+> 
+> `yagna service run --api-allow-origin='*'`
 
 ### Steps:
 
@@ -54,6 +58,11 @@ In this task, you will create a web page that will serve as a code sandbox for a
 4. Execution output is displayed to the user
 5. [Fill out the feedback form](./FEEDBACK.md) and publish changes in your repository fork
 
+### Useful links to solve this task
+
+- https://docs.golem.network/creators/javascript/high-level/task-model/
+- https://docs.golem.network/creators/javascript/examples/hello/
+- https://docs.golem.network/creators/javascript/examples/web/
 ---
 
 ## How to express interest in completing this task as part of the JS Preview Program?

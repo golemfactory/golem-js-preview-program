@@ -42,11 +42,22 @@ base64 converted, chunked, and sent as strings within the task, both as input an
 
 > **Warning**
 > 
-> To complete the additional challenge, you will need to install Yagna Daemon with a version of at least 0.13-rc1, so that you don’t have issues with CORS!
+> For this task, you will need to install Yagna Daemon with a version of at least 0.13-rc2, so that you don’t have issues with CORS!
 > 
 > To install the daemon in this version, use the script below:
 > 
 > `$ curl -sSf https://join.golem.network/as-requestor | YA_INSTALLER_CORE=pre-rel-v0.13.0-rc2 bash -`
+> 
+> To start the daemon with CORS support, run the script below
+> 
+> `yagna service run --api-allow-origin='*'`
+
+### Useful links to solve this task
+
+- https://docs.golem.network/creators/javascript/high-level/task-model/
+- https://docs.golem.network/creators/javascript/examples/hello/
+- https://docs.golem.network/creators/javascript/examples/web/
+- https://docs.golem.network/creators/javascript/examples/hashcat/
 
 ### Steps:
 

@@ -1,5 +1,5 @@
-FROM alpine:3.14
-RUN apk add --no-cache ffmpeg espeak
+FROM debian:stable-slim
+RUN apt update && apt install -y ffmpeg espeak
 VOLUME /golem/input /golem/output
 WORKDIR /golem/work
 
