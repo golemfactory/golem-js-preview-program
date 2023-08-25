@@ -15,27 +15,39 @@ Please fill out the form below:
 | -------------------------- | ---------------------------- |
 | Modify a `main.mjs` script |                              |
 
-List any additional steps that were necessary to resolve the task (other than the steps in the README.md).
+List any additional steps that were necessary to resolve the task (other than the steps in the README.md):
+[
+
+
+]
 
 ### Feedback:
 
 #### JS SDK Docs
 
-[Could you find the necessary information? If not what topics were difficult to find?
+[
+
+Could you find the necessary information? If not what topics were difficult to find?
 
 How would you change the structure/navigation of the docs? Recommend changes,
 
 Are examples and tutorials useful? What was missing, and what was too detailed or unnecessary?
 
-Have you noticed any errors? Please describe them or provide links to issues if you have already reported them.]
+Have you noticed any errors? Please describe them or provide links to issues if you have already reported them.
+
+]
 
 #### JS golem-js
 
-[Is the API natural to solve the tasks? If not how would you expect it to be?
+[
+    
+Is the API natural to solve the tasks? If not how would you expect it to be?
 
 Have you encountered any errors in the golem-js lib? Provide the link to issues.
 
-What additional features would you add?]
+What additional features would you add?
+
+]
 
 ## General feedback:
 
@@ -49,10 +61,13 @@ In what projects could you utilize Golem Network?
 
 ### Preview Program
 
+[
+
 Where the tasks and instructions adequate? 
 
-What other tasks would you suggest to add?
+What tasks would you suggest to add or change?
 
+]
 ---
 
 Thank you for your feedback and for contributing to the Golem Network!
