@@ -68,6 +68,7 @@ Where the tasks and instructions adequate?
 What tasks would you suggest to add or change?
 
 ]
+
 ---
 
 Thank you for your feedback and for contributing to the Golem Network!
