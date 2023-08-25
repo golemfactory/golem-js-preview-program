@@ -2,107 +2,67 @@
 
 Welcome to the Golem JS Preview Program repository! 
 
-Thank you for your interest in the JS Preview Program. Its purpose is to test the new JS API and the new documentation 
-available at https://docs.golem.network/creators/. 
+It contains a set of tasks based on the Golem JS SDK. By completing them you will learn how to write JS applications that will execute your tasks on the Golem Network. 
 
-This repository contains a set of tasks that you can complete to broaden your knowledge and help improve the Golem Network. 
+The program is based on the latest @golem-sdk/golem-js library and our new [documentation](https://docs.golem.network/creators/). 
 
-If you have any questions, we encourage you to contact the SDK team directly, who can help you identify any gaps 
-in the documentation or fill in any gaps in your knowledge about the Golem Network platform - join our community on 
-[Discord](https://chat.golem.network/) - find the `#js-discussion` channel in the SDK section. 
+Participants of the program are expected to share their feedback to help us improve the Golem Network, JS SDK, and docs.
 
-We also encourage you to visit https://www.golem.network/, where you can find more basic information about our open-source project.
+To participate in the program you must be recruited for one of the program editions. For more details on the program check [here](https://preview.golem.network/).
 
-**Below you will find the following information:**
+If you encounter any issues during the realization of these tasks ask on the  
+[Discord](https://chat.golem.network/) `#js-discussion` channel in the SDK section. 
 
-- [Available Tasks](#available-tasks)
-- [How to express interest in completing selected task(s) as part of the JS Preview Program?](#how-to-express-interest-in-completing-selected-task--s--as-part-of-the-js-preview-program)
-- [How to report completing selected task(s)?](#how-to-report-completing-selected-task--s--)
-- [How we will distribute more than $2500 to creators who provide the most valuable feedback?](#how-will-we-distribute-over-2500-in-additional-funds-to-creators-of-the-most-valuable-feedback)
-- [Useful links](#useful-links-)
+We also encourage you to visit https://www.golem.network/, where you can find more information about our open-source project.
 
 ---
 
 ## Available Tasks
 
 ### [#0 - Yagna Setup (optional)](tasks%2F0-yagna-setup)
-Install and configure the Yagna daemon on your machine to allow you to run tasks on the Golem Network.
+You will learn how to install and run the Yagna service to allow you to run tasks on the Golem Network, and how to get funds on the testnet. 
 
-### [Task #1 - Text2Speech](tasks%2F1-text-2-speech)
-Create a script that uses Golem to generate text-to-speech audio, allowing users to easily generate audio files without needing to install text-to-speech software locally. 
+### [Task #1 - Run a task in the Golem Network](tasks%2F1-run-a-task)
+You will learn how to create a script that will utilize the provided image and how to run a task on a remote node. On the practical side, you will use Golem to generate text-to-speech audio. 
 
-**Guaranteed reward** for first 40 accepted submissions: **50$**
+### [Task #2 - Build your custom Golem image](tasks%2F2-build-your-image)
+You will learn how to create a custom image and run a script that utilizes it. On the practical side, you will build a Docker image with your script.
 
-### [Task #2 - Code Sandbox](tasks%2F2-code-sandbox)
-Build a web-based code sandbox that can execute code on the Golem Network, allowing users to compile and execute code directly from their web browser.
+### [Task #3 - Send and receive files](tasks%2F3-send-and-receive-files)
+You will learn how to upload and download files. On the practical side, you will check how many cities above 10k inhabitants are there around the world.
 
-**Guaranteed reward** for first 40 accepted submissions: **60$**
+### [Task #4 - Run tasks in parallel](tasks%2F4-run-tasks-in-parallel)
+You will learn how to run tasks in parallel. On the practical side, you will upscale anime images. 
 
-### [Task #3 - Parallel File Conversion](tasks%2F3-parallel-file-conversion)
-Create a Node.js script that uses Golem to perform image file conversions in parallel, allowing users to convert multiple images in different formats simultaneously.
+### [Task #5 - Initialise workers](tasks%2F5-initialise-workers)
+You will learn how to initialize the workers and indicate how many of them you want to engage. On the practical side, you will see how to speed up your tasks by avoiding unnecessary data transfer. 
 
-**Guaranteed reward** for first 40 accepted submissions: **70$** (or **100$** if completed together with an additional challenge)
+### [Task #6 - Run requestor in a browser](tasks%2F6-run-requestor-in-browser)
+You will learn how to run a requestor from a browser. On the practical side - converting images can be inspiring.
 
-### [Task #4 - Text2Speech Server](tasks%2F4-text-2-speech-server)
-Prepare for a bigger scale and allow any user to interact with your API. This will serve as a gateway that schedules tasks on Golem and forwards the results. 
+### [Task #7 - Select providers](tasks%2F7-select-providers)
+You will learn how to define how strong a provider you seek and how to filter providers' proposals. On the practical side, just a little bit of math to calculate the expected price. 
 
-**Guaranteed reward** for first 30 accepted submissions: **80$**
+### [Task #8 - Use Golem as backend](tasks%2F8-use-Golem-as-backend)
+You will learn how to utilize Golem to offload your system. On the practical side, you will use speech-to-text AI software without installation.
 
-### [Task #5 - Best Provider Selection](tasks%2F5-best-provider-selection)
-Create a Node.js script that selects the best provider to run a Golem task based on factors such as price, reliability, and performance. 
+### [Task #9 - Run the task on mainnet](tasks%2F9-run-on-mainnet)
+You will learn how to run the tasks on a public network using real Golem tokens. On the practical side, you will acquire some coins and tokens. 
 
-**Guaranteed reward** for first 30 accepted submissions: **100$**
-
----
-
-## How to express interest in completing selected task(s) as part of the JS Preview Program?
-
-1. Choose one platform through which we will settle your work - you decide which platform is more convenient for you:
-  - Freelancer.com: [Task #1](#) | [Task #2](#) | [Task #3](#) | [Task #4](#) | [Task #5](#)
-  - Upwork.com: [Task #1](#) | [Task #2](#) | [Task #3](#) | [Task #4](#) | [Task #5](#)
-  - Fiverr.com: [Task #1](#) | [Task #2](#) | [Task #3](#) | [Task #4](#) | [Task #5](#)
-
-2. Reply to a task brief on a selected platform and tell us a few words about your experience in JS development - we need to know you are the right person! Based on your experience, we will select testers to help us improve our JS API.
-3. Once your application has been accepted, you can proceed with the task.
-
----
-
-## How to report completing selected task(s)?
-
-1. After completing all the steps outlined in **Task Details** section of each task, return to the selected billing platform (Freelancer / Upwork / Fiverr) and, in response to the task, send your **GitHub username** and the **email address** provided in the GitHub submission form.
-2. Next, an SDK department employee will verify your task(s). We will reject feedback such as "Ok." or "Cool." We value honest and helpful feedback, which is the goal of this program.
-3. How do we determine if feedback is valid? We seek feedback that has a groundbreaking nature or has a potential impact on the Golem platform. For example, it can include the most challenging issue (technical or functional) you faced during the implementation of the particular task(s) and the steps you took to solve it.
-4. Once your feedback is approved, we will make a payment.
-
----
-
-## How will we distribute over $2500 in additional funds to creators of the most valuable feedback?
-
-We're interested in hearing about any difficult obstacles you encountered and how you overcame them with your creativity 
-and resourcefulness. So, let's hear all the juicy details to help make Golem even more amazing. 
-
-The authors of the most valuable feedback will receive even more money, with a **prize pool of over $2500 up for grabs**.
-
-And remember - if you want to simply earn more, just do more tasks! 
-[The list and descriptions of all of the tasks](#available-tasks) + [the terms & conditions](./TERMS_AND_CONDITIONS.md) of the additional competition (PRIZE POOL over $2500!) 
-can also be found at **https://preview.golem.network/**
 
 ---
 
 ## Useful links:
 
-- Javascript docs: https://docs.golem.network/creators/javascript/quickstart/
-- Dapps docs: https://docs.golem.network/creators/dapps/ 
+- Javascript docs: https://docs.golem.network/creators/javascript/
 - Need help? Go to https://chat.golem.network/ & find the `#js-discussion` channel in the SDK section
 - Official Golem Network website: https://www.golem.network/
-- Want to join our team? https://www.golem.network/careers 
-- Terms and conditions: https://github.com/golemfactory/golem-js-preview-program/blob/master/TERMS_AND_CONDITIONS.md
+- Program Terms and conditions: https://github.com/golemfactory/golem-js-preview-program/blob/master/TERMS_AND_CONDITIONS.md
 
 **What is the Golem Network?**
 
+The Golem Network is a flexible and open-source platform that harnesses the power of decentralization for accessing and sharing computational resources.
 We are building a new open-source world that everyone has the right to enter. 
-The Golem Network is a flexible and open-source platform that harnesses the power of decentralization for 
-accessing and sharing computational resources.
 
 **Our new Golem JS Api lets you:**
 
@@ -110,6 +70,3 @@ accessing and sharing computational resources.
 - Run tasks on the Golem Network directly from your browser
 - Create serverless applications using Golem as your computation backend
 
-With your feedback, our open-source platform, the Golem Network, will become even more attractive to other developers! 
-
-**Thank you!**
