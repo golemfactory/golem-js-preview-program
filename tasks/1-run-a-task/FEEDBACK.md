@@ -49,7 +49,7 @@ What additional features would you add?
 
 ]
 
-## General feedback:
+#### General feedback:
 
 [
 
@@ -59,7 +59,7 @@ In what projects could you utilize Golem Network?
 
 ]
 
-### Preview Program
+#### Preview Program
 
 [
 
