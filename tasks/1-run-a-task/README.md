@@ -2,7 +2,7 @@
 
 ## Why
 
-Golem user can execute tasks in the defined environment on a remote computer. 
+Golem user can execute tasks in the defined environment on a remote computer.
 
 In this excercise you will learn how to create a script that will utilize the specific image and how to run that task on a remote node.
 
@@ -20,17 +20,16 @@ Create a script that will accept user-provided text as input and convert to `.mp
 
 4. [Fill out the feedback form](./FEEDBACK.md) and publish changes in your repository fork.
 
-
 ### Useful links to solve this task
 
 Golem JS [QuickStart](https://docs.golem.network/creators/javascript/quickstars/quickstart).
 
 The image has VOLUME defined as `/golem/work`.
 
-The usage example of `espeak` command to convert text to speach in `.wav` format: 
+The usage example of `espeak` command to convert text to speach in `.wav` format:
 `espeak "Hello Golem" -w /golem/work/result.wav`.
 
-The usage example of `ffmpeg` command to convert `.wav` to `.mp3` file: 
+The usage example of `ffmpeg` command to convert `.wav` to `.mp3` file:
 `ffmpeg -i /golem/work/result.wav /golem/work/result.mp3`.
 
 You can download the file with `await ctx.downloadFile("/golem/work/result.mp3", "result.mp3");`.
