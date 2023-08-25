@@ -4,7 +4,7 @@
 
 Yagna provides access to the Golem Network. You will learn how to install and run the Yagna service, and how to get funds to run your tasks.
 
-## The Task
+## Task description
 
 Install and configure the Yagna service on your machine to allow you to run tasks on the Golem Network. Once you install it and configure access paths, you can validate the setup with the provided verification script.
 
