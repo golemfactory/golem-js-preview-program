@@ -29,14 +29,3 @@ Install and configure the Yagna service on your machine to allow you to run task
 - Do not forget to run `npm install` to install our libraries.
 
 - You can always ask on the [Discord](https://chat.golem.network/) `#js-discussion` channel in the SDK section.
-
-**What is the Golem Network?**
-
-The Golem Network is a flexible and open-source platform that harnesses the power of decentralization for accessing and sharing computational resources.
-We are building a new open-source world that everyone has the right to enter. 
-
-**Our new Golem JS Api lets you:**
-
-- Develop distributed open-source computing solutions for a wide range of use cases.
-- Run tasks on the Golem Network directly from your browser.
-- Create serverless applications using Golem as your computation backend.
