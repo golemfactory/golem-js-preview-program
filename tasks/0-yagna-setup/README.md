@@ -2,31 +2,29 @@
 
 ## Why
 
-Yagna provides access to the Golem Network. You need to set-up the Yagna daemon to run tasks on the Golem Network 
+Yagna provides access to the Golem Network. You will learn how to install and run the Yagna service, and how to get funds to run your tasks.
 
-## Description
+## The Task
 
-Install and configure the Yagna daemon on your machine to allow you to run tasks on the Golem Network.
-
-This simple task requires you to install the Yagna daemon, configure access paths, ensure your environment has all 
-required elements and verify your setup is complete. The set-up will include installing all the necessary system packages, 
-installing the daemon itself, and making sure the executables are discoverable by your system. 
-Finally, run a verification script to ensure the setup is complete.
+Install and configure the Yagna service on your machine to allow you to run tasks on the Golem Network. Once you install it and configure access paths, you can validate the setup with the provided verification script.
 
 
 ## Steps
 
-1. Follow the yagna daemon setup process available [here](https://docs.golem.network/creators/javascript/quickstart/), until it is running, has funds, and the app key is created.
-   
-   > :warning: Remember to **set the `YAGNA_APPKEY` environment variable** in your current terminal session (check [here](https://docs.golem.network/creators/javascript/quickstart/#setup-yagna_appkey) how to do so)
+1. Install and configure the Yagna service.
+ 
+2. Run a verification script: `npm run verify`
 
-2. Run a verification script:
-   1. Go to the `yagna-setup` task directory in your repository fork
-   2. Install dependencies by running `npm install`
-   3. Run the verification script with `npm run verify`
-   4. Inside the `yagna-setup` directory, add a generated `.json` file to your repository
-3. Verify the contents of the `result.json` file to see e.g. a name of your provider
+3. Verify the contents of the `result.json` file to see e.g. the name of the provider who has run your task.
 
 ## Additional info
 
-Please read the overall description of the tasks, getting started instructions and submission requirements in the [root repository README](../../README.md)
+Yagna service setup instructions are available [here](https://docs.golem.network/creators/javascript/examples/tools/yagna-installation-for-requestors).
+
+You might also like to review Node.js [QuickStart](https://docs.golem.network/creators/javascript/quickstars/quickstart) in the Docs.
+
+If you want to use a unique app-key and not store it in the GitHub repo, please check these [example](https://docs.golem.network/creators/javascript/examples/using-app-keys) how to generate a unique key, and how to use `YAGNA_APPKEY` environment variable. 
+
+Do not forget to run `npm install` to install our libraries.
+
+You can always ask on the [Discord](https://chat.golem.network/) `#js-discussion` channel in the SDK section. 
