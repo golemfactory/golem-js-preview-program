@@ -60,6 +60,8 @@ You will learn how to run the tasks on a public network using real Golem tokens.
 
 - Program Terms and conditions: https://github.com/golemfactory/golem-js-preview-program/blob/master/TERMS_AND_CONDITIONS.md
 
+---
+
 **What is the Golem Network?**
 
 The Golem Network is a flexible and open-source platform that harnesses the power of decentralization for accessing and sharing computational resources.
