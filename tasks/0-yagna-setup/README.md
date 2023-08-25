@@ -20,12 +20,23 @@ Install and configure the Yagna service on your machine to allow you to run task
 
 ## Additional info
 
-Yagna service setup instructions are available [here](https://docs.golem.network/creators/javascript/examples/tools/yagna-installation-for-requestors).
+- Yagna service setup instructions are available [here](https://docs.golem.network/creators/javascript/examples/tools/yagna-installation-for-requestors).
 
-You might also like to review Node.js [QuickStart](https://docs.golem.network/creators/javascript/quickstars/quickstart) in the Docs.
+- You might also like to review Node.js [QuickStart](https://docs.golem.network/creators/javascript/quickstars/quickstart) in the Docs.
 
-If you want to use a unique app-key and not store it in the GitHub repo, please check these [example](https://docs.golem.network/creators/javascript/examples/using-app-keys) how to generate a unique key, and how to use `YAGNA_APPKEY` environment variable.
+- If you want to use a unique app-key and not store it in the GitHub repo, please check these [example](https://docs.golem.network/creators/javascript/examples/using-app-keys) how to generate a unique key, and how to use `YAGNA_APPKEY` environment variable.
 
-Do not forget to run `npm install` to install our libraries.
+- Do not forget to run `npm install` to install our libraries.
 
-You can always ask on the [Discord](https://chat.golem.network/) `#js-discussion` channel in the SDK section.
+- You can always ask on the [Discord](https://chat.golem.network/) `#js-discussion` channel in the SDK section.
+
+**What is the Golem Network?**
+
+The Golem Network is a flexible and open-source platform that harnesses the power of decentralization for accessing and sharing computational resources.
+We are building a new open-source world that everyone has the right to enter. 
+
+**Our new Golem JS Api lets you:**
+
+- Develop distributed open-source computing solutions for a wide range of use cases.
+- Run tasks on the Golem Network directly from your browser.
+- Create serverless applications using Golem as your computation backend.

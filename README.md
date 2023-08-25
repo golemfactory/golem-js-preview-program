@@ -53,8 +53,11 @@ You will learn how to run the tasks on a public network using real Golem tokens.
 ## Useful links:
 
 - Javascript docs: https://docs.golem.network/creators/javascript/
+
 - Need help? Go to https://chat.golem.network/ & find the `#js-discussion` channel in the SDK section
+
 - Official Golem Network website: https://www.golem.network/
+
 - Program Terms and conditions: https://github.com/golemfactory/golem-js-preview-program/blob/master/TERMS_AND_CONDITIONS.md
 
 **What is the Golem Network?**
@@ -64,7 +67,7 @@ We are building a new open-source world that everyone has the right to enter.
 
 **Our new Golem JS Api lets you:**
 
-- Develop distributed open-source computing solutions for a wide range of use cases
-- Run tasks on the Golem Network directly from your browser
-- Create serverless applications using Golem as your computation backend
+- Develop distributed open-source computing solutions for a wide range of use cases.
+- Run tasks on the Golem Network directly from your browser.
+- Create serverless applications using Golem as your computation backend.
 
