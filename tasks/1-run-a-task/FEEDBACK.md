@@ -3,39 +3,44 @@
 ## Introduction
 
 Thank you for taking the time to complete this Golem JS Preview Program task!
-We appreciate your effort in helping us gather valuable feedback and suggestions on how to improve the Golem Network.
-Please fill out the following form to provide your feedback and estimated completion times for each task step.
+
+We appreciate your valuable feedback and suggestions on how to improve the Golem Network.
+Please fill out the following form;
 
 ## Task: #1 - Text2Speech
 
 ### Estimated completion time:
 
-| Task Step                                                                                                    | Completion Time (in minutes) |
-| ------------------------------------------------------------------------------------------------------------ | ---------------------------- |
-| Convert the docker image to a GVMI image and publish it to receive an image hash                             |                              |
-| Modify a `main.mjs` script that will execute the text-2-speech conversion, available under the `npm run tts` |                              |
+| Task Step                  | Completion Time (in minutes) |
+| -------------------------- | ---------------------------- |
+| Modify a `main.mjs` script |                              |
+
+List any additional steps that were neccesary to resolve the task (on top ot the steps in README.md).
 
 ### Feedback:
 
-Please provide any feedback you have regarding each task step below:
+#### JS SDK Docs
 
-#### Step 1: Convert the docker image to a GVMI image and publish it to receive an image hash
+Could you find neccesary information? If not what topics where difficult to find.
+How would you change the structure/ navigations of the docs? Recommend changes,
+Are examples and tutorials usefull? What was missing, what was too detailed or unnecessary?
+Have you notices any error? Please decribe them or provide links to issues if you had already reported them.
 
-[ENTER YOUR FEEDBACK HERE]
+#### JS golem-js
 
-#### Step 2: Modify a `main.mjs` script that will execute the text-2-speech conversion, available under the `npm run tts`
-
-[ENTER YOUR FEEDBACK HERE]
+Is the API natural to solve the tasks? If not how would you expecct it to be?
+Have you encounter any error in the golem-js lib? Provide the link to issues.
+What additional features would you add?
 
 ## General feedback:
 
-Is there anything else you'd like to share about your experience
-completing this task or using the Golem Network in general?
+What was your general experience with Golem Network?
+In what projects could you utilize Golem Network.
 
-[ENTER YOUR FEEDBACK HERE]
+### Preview Program
 
-### Suggestions for Improvement
+What the task and instructions adequate?
 
-[Insert any suggestions you have for improving the task or our ecosystem here]
+---
 
 Thank you for your feedback and for contributing to the Golem Network!
