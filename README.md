@@ -8,9 +8,9 @@ The program is based on the latest @golem-sdk/golem-js library and our new [docu
 
 Participants of the program are expected to share their feedback to help us improve the Golem Network, JS SDK, and docs.
 
-To participate in the program you must be recruited for one of the program editions. For more details on the program check [here](https://preview.golem.network/).
+To participate in the program and win prizes you must be recruited for one of the program editions. For more details on the program check [here](https://preview.golem.network/). Even if we do not run an addition at this moment, you are welcome to use the program to facilitate your tour with Golem and JS SDK.
 
-If you encounter any issues during the realization of these tasks ask on the  
+If you encounter any issues during the realization of these tasks ask on the 
 [Discord](https://chat.golem.network/) `#js-discussion` channel in the SDK section. 
 
 We also encourage you to visit https://www.golem.network/, where you can find more information about our open-source project.

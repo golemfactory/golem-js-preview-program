@@ -7,8 +7,8 @@
     "verify": "node verify.mjs"
   },
   "author": "Golem Factory GmbH",
-  "license": "MIT",
+  "license": "GPL-3.0 license",
   "dependencies": {
-    "yajsapi": "^0.7.0-alpha.0"
+    "@golem-sdk/golem-js": "^0.8.2"
   }
 }
