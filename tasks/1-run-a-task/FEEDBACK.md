@@ -29,7 +29,7 @@ List any additional steps that were necessary to resolve the task (other than th
 
 Could you find the necessary information? If not what topics were difficult to find?
 
-How would you change the structure/navigation of the docs? Recommend changes,
+How would you change the structure/navigation of the docs? Recommend changes.
 
 Are examples and tutorials useful? What was missing, and what was too detailed or unnecessary?
 
