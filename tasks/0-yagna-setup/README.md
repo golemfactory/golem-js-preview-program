@@ -1,8 +1,10 @@
-# #0 - Yagna Setup
+# Task #0 - Yagna Setup
 
 ## Why
 
-Yagna provides access to the Golem Network. You will learn how to install and run the Yagna service, and how to get funds to run your tasks.
+Yagna provides access to the Golem Network.
+
+In this excercise you will learn how to install and run the Yagna service, and how to get funds to run your tasks.
 
 ## Task description
 
@@ -12,7 +14,7 @@ Install and configure the Yagna service on your machine to allow you to run task
 
 1. Install and configure the Yagna service.
 
-2. Run a verification script: `npm run verify`
+2. Run a verification script: `npm run verify`.
 
 3. Verify the contents of the `result.json` file to see e.g. the name of the provider who has run your task.
 
