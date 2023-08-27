@@ -21,30 +21,33 @@ We also encourage you to visit https://www.golem.network/, where you can find mo
 You will learn how to install and run the Yagna service to allow you to run tasks on the Golem Network, and how to get funds on the testnet. 
 
 ### [Task #1 - Run a task in the Golem Network](tasks%2F1-run-a-task)
-You will learn how to create a script that will utilize the provided image and how to run a task on a remote node. On the practical side, you will use Golem to generate text-to-speech audio. 
+You will learn how to create a script that will utilize the provided image and how to run a task on a remote node. On the practical side, you will use `fortune` to generate a motivation phrase. 
 
 ### [Task #2 - Build your custom Golem image](tasks%2F2-build-your-image)
 You will learn how to create a custom image and run a script that utilizes it. On the practical side, you will build a Docker image with your script.
 
-### [Task #3 - Send and receive files](tasks%2F3-send-and-receive-files)
+### [Task #3 - Download results from Provider](tasks%2F3-get-the-results)
+You will learn how to create a script that will utilize the provided image and how to run a task on a remote node. On the practical side, you will use Golem to generate text-to-speech audio. 
+
+### [Task #4 - Send files](tasks%2F4-send-and-receive-files)
 You will learn how to upload and download files. On the practical side, you will check how many cities above 10k inhabitants are there around the world.
 
-### [Task #4 - Run tasks in parallel](tasks%2F4-run-tasks-in-parallel)
+### [Task #5 - Run tasks in parallel](tasks%2F5-run-tasks-in-parallel)
 You will learn how to run tasks in parallel. On the practical side, you will upscale anime images. 
 
-### [Task #5 - Initialise workers](tasks%2F5-initialise-workers)
+### [Task #6 - Initialise workers](tasks%2F6-initialise-workers)
 You will learn how to initialize the workers and indicate how many of them you want to engage. On the practical side, you will see how to speed up your tasks by avoiding unnecessary data transfer. 
 
-### [Task #6 - Run requestor in a browser](tasks%2F6-run-requestor-in-browser)
+### [Task #7 - Run requestor in a browser](tasks%2F7-run-requestor-in-browser)
 You will learn how to run a requestor from a browser. On the practical side - converting images can be inspiring.
 
-### [Task #7 - Select providers](tasks%2F7-select-providers)
+### [Task #8 - Select providers](tasks%2F8-select-providers)
 You will learn how to define how strong a provider you seek and how to filter providers' proposals. On the practical side, just a little bit of math to calculate the expected price. 
 
-### [Task #8 - Use Golem as backend](tasks%2F8-use-Golem-as-backend)
+### [Task #9 - Use Golem as backend](tasks%2F9-use-Golem-as-backend)
 You will learn how to utilize Golem to offload your system. On the practical side, you will use speech-to-text AI software without installation.
 
-### [Task #9 - Run the task on mainnet](tasks%2F9-run-on-mainnet)
+### [Task #A - Run the task on mainnet](tasks%2FA-run-on-mainnet)
 You will learn how to run the tasks on a public network using real Golem tokens. On the practical side, you will acquire some coins and tokens. 
 
 
