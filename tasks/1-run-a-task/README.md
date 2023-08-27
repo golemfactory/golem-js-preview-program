@@ -28,8 +28,8 @@ Create a script that will run a `fortune` command on the remote node and display
 
 - The usage example of `fortune` command:
 
-`fortune -l` for senctences from literature
+    `fortune -l` for senctences from literature
 
-`fortune -c` - only short fortunes
+    `fortune -c` - only short fortunes
 
 - You can always ask on the [Discord](https://chat.golem.network/) `#js-discussion` channel in the SDK section.
