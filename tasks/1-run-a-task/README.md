@@ -8,7 +8,7 @@ In this excercise you will learn how to create a script that will utilize the sp
 
 ## Task description
 
-Create a script that will run a `fortune` command on the remote node and display the output. For this task you can use Golem-provided image containing both `fortune`. That image's `hash` is `0e24cd9c3c019143fba94debce69f37353d0157ac4329050870e9ae8`.
+Create a script that will run a `fortune` command on the remote node and display the output. For this task you can use Golem-provided image containing both `fortune`. That image's `hash` is `1e65223a888bd7a4521e06ba7f3f3ba648e8a09ffd18f3658efba336`.
 
 ### Steps
 
@@ -24,7 +24,7 @@ Create a script that will run a `fortune` command on the remote node and display
 
 - Golem JS [QuickStart](https://docs.golem.network/creators/javascript/quickstars/quickstart).
 
-- The command is available is `/use/games` directory.
+- The `fortune` command is available is `/usr/games` directory.
 
 - The usage example of `fortune` command:
 
