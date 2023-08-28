@@ -12,11 +12,11 @@ Create a script that will run a `fortune` command on the remote node and display
 
 ### Steps
 
-1. __Modify the `main.mjs` script to execute the fortune commands.__
+1. Modify the `main.mjs` script to execute the fortune commands.
 
 2. Run the script and verify the output.
 
-3. Add changes in the `1-run-a-task` directory.
+3. Add changes in the `run-a-task` directory.
 
 4. [Fill out the feedback form](./FEEDBACK.md) and publish changes in your repository fork.
 

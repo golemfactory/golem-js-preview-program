@@ -12,7 +12,7 @@ Create a script that will accept the user-provided text as input and convert it 
 
 ### Steps
 
-1. __Modify the `main.mjs` script to execute the text-2-speech conversion commands.__
+1. Modify the `main.mjs` script to execute the text-2-speech conversion commands.
 
 2. Run the script and verify the output.
 

@@ -7,7 +7,7 @@ Thank you for taking the time to complete this Golem JS Preview Program task!
 We appreciate your valuable feedback and suggestions on how to improve the Golem Network.
 Please fill out the form below:
 
-## Task: #1 - Run a task in the Golem Network
+## Task: #2 - Get the results
 
 ### Estimated completion time:
 
