@@ -2,13 +2,13 @@
 
 ## Why
 
-Golem user can execute tasks in the defined environment on a remote computer.
+Golem users can execute tasks in the defined environment on a remote computer.
 
-In this excercise you will learn how to create a script that will utilize the specific image and how to run a task on a remote node.
+In this exercise, you will learn how to create a script that will utilize the specific image and how to run a task on a remote node.
 
 ## Task description
 
-Create a script that will run a `fortune` command on the remote node and display the output. For this task you can use Golem-provided image containing both `fortune`. That image's `hash` is `1e65223a888bd7a4521e06ba7f3f3ba648e8a09ffd18f3658efba336`.
+Create a script that will run a `fortune` command on the remote node and display the output. For this task, you can use a Golem-provided image containing both `fortune`. That image's `hash` is `1e65223a888bd7a4521e06ba7f3f3ba648e8a09ffd18f3658efba336`.
 
 ### Steps
 
@@ -24,9 +24,9 @@ Create a script that will run a `fortune` command on the remote node and display
 
 - Golem JS [QuickStart](https://docs.golem.network/creators/javascript/quickstars/quickstart).
 
-- The `fortune` command is available is `/usr/games` directory.
+- The `fortune` command is available in the `/usr/games` directory.
 
-- The usage example of `fortune` command:
+- The usage example of the `fortune` command:
 
     `fortune -l` for senctences from literature
 

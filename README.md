@@ -23,11 +23,11 @@ You will learn how to install and run the Yagna service to allow you to run task
 ### [Task #1 - Run a task in the Golem Network](tasks%2F1-run-a-task)
 You will learn how to create a script that will utilize the provided image and how to run a task on a remote node. On the practical side, you will use `fortune` to generate a motivation phrase. 
 
-### [Task #2 - Build your custom Golem image](tasks%2F2-build-your-image)
-You will learn how to create a custom image and run a script that utilizes it. On the practical side, you will build a Docker image with your script.
+### [Task #2 - Download results from Provider](tasks%2F2-get-the-results)
+You will learn how to run a task on a remote node and take the result file back. On the practical side, you will use Golem to generate text-to-speech audio. 
 
-### [Task #3 - Download results from Provider](tasks%2F3-get-the-results)
-You will learn how to create a script that will utilize the provided image and how to run a task on a remote node. On the practical side, you will use Golem to generate text-to-speech audio. 
+### [Task #3 - Build your custom Golem image](tasks%2F3-build-your-image)
+You will learn how to create a custom image and run a script that utilizes it. On the practical side, you will build a Docker image with your script.
 
 ### [Task #4 - Send files](tasks%2F4-send-and-receive-files)
 You will learn how to upload and download files. On the practical side, you will check how many cities above 10k inhabitants are there around the world.

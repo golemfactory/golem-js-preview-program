@@ -1,8 +1,8 @@
 {
-  "name": "text-2-speech",
+  "name": "fortune",
   "version": "1.0.0",
   "type": "module",
-  "description": "A script that uses Golem to generate text-to-speech audio",
+  "description": "A script that uses Golem to run fortune",
   "scripts": {
     "tts": "node main.mjs"
   },

@@ -1,4 +1,4 @@
-import { TaskExecutor } from "yajsapi";
+import { TaskExecutor } from "@golem-sdk/golem-js";
 
 (async function main() {
   const executor = await TaskExecutor.create({
@@ -6,7 +6,7 @@ import { TaskExecutor } from "yajsapi";
     yagnaOptions: { apiKey: "try_golem" },
   });
   await executor.run(async (ctx) => {
-    // TODO execute espeak command
+    // TODO execute fortune command
   });
   await executor.end();
 })();

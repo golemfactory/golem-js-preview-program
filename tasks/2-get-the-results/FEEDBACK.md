@@ -14,6 +14,7 @@ Please fill out the form below:
 | Task Step                  | Completion Time (in minutes) |
 | -------------------------- | ---------------------------- |
 | Modify a `main.mjs` script |                              |
+| Download the output file    |                              |
 
 List any additional steps that were necessary to resolve the task (other than the steps in the README.md):
 
@@ -64,7 +65,7 @@ In what projects could you utilize Golem Network?
 
 [
 
-Where the tasks and instructions adequate? 
+Were the tasks and instructions adequate? 
 
 What tasks would you suggest to add or change?
 

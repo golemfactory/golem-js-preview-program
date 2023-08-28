@@ -64,7 +64,7 @@ In what projects could you utilize Golem Network?
 
 [
 
-Where the tasks and instructions adequate? 
+Were the tasks and instructions adequate? 
 
 What tasks would you suggest to add or change?
 
