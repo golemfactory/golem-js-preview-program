@@ -31,7 +31,7 @@ The `generator.mjs` script generates a sequence of n random numbers with a norma
 - Remember that the image should have the `node.js`` and required libraries installed.
 
 - The usage example of the `generator.mjs` script:
-`node generator.mjs -n <sample_count>`.
+`node generator.mjs --sample=<sample_count>`.
 
 - Golem JS image conversion instructions are available in [examples](https://docs.golem.network/creators/javascript/quickstars/examples) and [tutorial](https://docs.golem.network/creators/javascript/quickstars/tutorials/building-custom-image).
 
