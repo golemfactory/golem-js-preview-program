@@ -1,14 +1,7 @@
-# Task #3 - Parallel File Conversion
+# Task #4 - Sending files
 
-Thank you for your interest in the JS Preview Program. Its purpose is to test the new JS API and the new documentation 
-available at https://docs.golem.network/creators/. This is where you should find all the necessary information about 
-Golem Network needed to complete this task. 
+## Why
 
-If you have any questions, we encourage you to contact the SDK team directly, who can help you identify any gaps 
-in the documentation or fill in any gaps in your knowledge about the Golem Network platform - join our community on 
-[Discord](https://chat.golem.network/) - find the `#js-discussion` channel in the SDK section. 
-
-We also encourage you to visit https://www.golem.network/, where you can find more basic information about our open-source project.
 
 **Below you will find the following information:**
 
