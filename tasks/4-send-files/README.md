@@ -2,26 +2,25 @@
 
 ## Why
 
+Golem JS SDK enables users to send files to Providers. 
 
-**Below you will find the following information:**
+In this challange, you will learn how to upload files.
 
-- [Task Details](#task-details)
-- [How to express interest in completing it as part of the JS Preview Program?](#how-to-express-interest-in-completing-this-task-as-part-of-the-js-preview-program)
-- [How to report completion of the task?](#how-to-report-completing-this-task)
-- [How we will distribute more than $2500 to creators who provide the most valuable feedback?](#how-will-we-distribute-over-2500-in-additional-funds-to-creators-of-the-most-valuable-feedback)
-- [Useful links](#useful-links-)
 
----
+## Task description
 
-## Task Details
+Creaet a tool which uses the Golem Network to host OCR conversion tools on your custom image. You can use the i.e. [tesseract](https://github.com/tesseract-ocr/tesseract) engine to create your image.
 
-### Why:
 
-Tasks are executed in parallel, and some conversions take longer to complete than others, so it should be visible when tasks are finished at different times. 
+### Steps
 
-This will enable you to use Golem's capabilities to distribute your tasks and speed up the overall execution time! 
+1. Create a your custom image.
 
-### Description:
+2. Create a requestor script that will take the input image, send it to the provider, run the conversion, download the output as a file.
+
+3. Add changes in the `build-your-image` directory.
+
+4. [Fill out the feedback form](./FEEDBACK.md) and publish changes in your repository fork.
 
 Create a Node.js script that uses Golem to perform image file conversions in parallel, allowing users to convert multiple images in different formats simultaneously.
 
@@ -83,9 +82,17 @@ base64 converted, chunked, and sent as strings within the task, both as input an
 3. How do we determine if feedback is valid? We seek feedback that has a groundbreaking nature or has a potential impact on the Golem platform. For example, it can include the most challenging issue (technical or functional) you faced during the implementation of the particular task(s) and the steps you took to solve it.
 4. Once your feedback is approved, we will make a payment.
 
-**Guaranteed reward** for first 40 accepted submissions: **70$** (or **100$** if completed together with an additional challenge)
+## Additional info
 
----
+- Golem JS image conversion instructions are available in [examples](https://docs.golem.network/creators/javascript/quickstars/examples) and [tutorial](https://docs.golem.network/creators/javascript/quickstars/tutorials/building-custom-image).
+
+- Note you might need to include in the image not only the ocr tool, but also language libraries.
+
+- for the `essseract-ocr` tool usage examples and test data are available [here](https://tesseract-ocr.github.io/tessdoc/Command-Line-Usage.html#simplest-invocation-to-ocr-an-image).
+
+- Golem JS data transfer examples are are available [here](https://docs.golem.network/creators/javascript/quickstars/examples/transferring-data).
+
+- You can always ask on the [Discord](https://chat.golem.network/) `#js-discussion` channel in the SDK section.
 
 ## How will we distribute over $2500 in additional funds to creators of the most valuable feedback?
 

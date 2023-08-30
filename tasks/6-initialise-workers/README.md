@@ -1,14 +1,9 @@
 # Task #5 - Best Provider Selection
 
-Thank you for your interest in the JS Preview Program. Its purpose is to test the new JS API and the new documentation 
-available at https://docs.golem.network/creators/. This is where you should find all the necessary information about 
-Golem Network needed to complete this task. 
 
-If you have any questions, we encourage you to contact the SDK team directly, who can help you identify any gaps 
-in the documentation or fill in any gaps in your knowledge about the Golem Network platform - join our community on 
-[Discord](https://chat.golem.network/) - find the `#js-discussion` channel in the SDK section. 
+In many scenarios, users need to validate some data against another set of data. In this challenge, we will simulate such a scenario using the database of world cities. As a reference database, you can use i.e. https://simplemaps.com/data/world-cities (requires attribution). You can also use any Golem image with `node.js` (like the one used in the JS QuickStart) or create a custom one. You need to write a tool (validator.mjs) that will scan the database in order to check if any of the words in the input file is listed as a city name in DB and save the results to a file. Finally, write a requestor script that will: send all 3 files (the .csv file with the reference database, a file with sample words to be checked, and your validator.mjs script) to a remote node. Then run the validation tool, collect the results, and display them to the user. 
 
-We also encourage you to visit https://www.golem.network/, where you can find more basic information about our open-source project.
+Note that for a bigger database, it might be more efficient to include the db and validation script already inside the image, to avoid sending it each time over the network. Nevertheles this task is about sending files 
 
 **Below you will find the following information:**
 
