@@ -32,6 +32,6 @@ Create a script that will accept the user-provided text as input and convert it 
 - The usage example of `ffmpeg` command to convert `.wav` to a `.mp3` file:
 `ffmpeg -i /golem/work/result.wav /golem/work/result.mp3`.
 
-- Golem JS data transfer [examples](https://docs.golem.network/creators/javascript/quickstars/examples/transferring-data#downloading-a-file-from-the-provider).
+- Golem JS data transfer [examples](https://docs.golem.network/creators/javascript/examples/transferring-data#downloading-a-file-from-the-provider).
 
 - You can always ask on the [Discord](https://chat.golem.network/) `#js-discussion` channel in the SDK section.

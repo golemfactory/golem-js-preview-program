@@ -24,12 +24,12 @@ Create a tool that uses the Golem Network to host OCR conversion tools on your c
 
 ## Additional info
 
-- Golem JS image conversion instructions are available in [examples](https://docs.golem.network/creators/javascript/quickstars/examples) and [tutorial](https://docs.golem.network/creators/javascript/quickstars/tutorials/building-custom-image).
+- Golem JS image conversion instructions are available in [examples](https://docs.golem.network/creators/javascript/examples) and [tutorial](https://docs.golem.network/creators/javascript/tutorials/building-custom-image).
 
 - Note you might need to include in the image not only the OCR tool but also language libraries.
 
 - For the `essseract-ocr` tool usage examples and test data are available [here](https://tesseract-ocr.github.io/tessdoc/Command-Line-Usage.html#simplest-invocation-to-ocr-an-image).
 
-- Golem JS data transfer examples are available [here](https://docs.golem.network/creators/javascript/quickstars/examples/transferring-data).
+- Golem JS data transfer examples are available [here](https://docs.golem.network/creators/javascript/examples/transferring-data).
 
 - You can always ask on the [Discord](https://chat.golem.network/) `#js-discussion` channel in the SDK section.

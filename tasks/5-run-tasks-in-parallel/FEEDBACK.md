@@ -1,47 +1,75 @@
 # Golem JS Preview Program Feedback Form
 
 ## Introduction
-Thank you for taking the time to complete this Golem JS Preview Program task! 
-We appreciate your effort in helping us gather valuable feedback and suggestions on how to improve the Golem Network. 
-Please fill out the following form to provide your feedback and estimated completion times for each task step.
 
-## Task: #4 - Text2Speech Server
+Thank you for taking the time to complete this Golem JS Preview Program task!
+
+We appreciate your valuable feedback and suggestions on how to improve the Golem Network.
+Please fill out the form below:
+
+## Task: #5 - Running tasks in parallel
 
 ### Estimated completion time:
-| Task Step                                                             | Completion Time (in minutes) |
-|-----------------------------------------------------------------------|------------------------------|
-| Create a script that will start HTTP server on port 3000              |                              |
-| Create a `/tts` endpoint that accepts `q` query param with input text |                              |
-| Schedule task with received text to be converted on Golem Network     |                              |
-| Scale number of contracted providers as more requests are received    |                              |
+
+| Task Step    | Completion Time (in minutes) |
+|-------       |------------------------------|
+| Create the requestor script                |                              |
+
+List any additional steps that were necessary to resolve the task (other than the steps in the README.md):
+
+[
+
+
+]
 
 ### Feedback:
-Please provide any feedback you have regarding each task step below:
 
-#### Step 1: Create a script that will start HTTP server on port 3000
+#### JS SDK Docs
 
-[ENTER YOUR FEEDBACK HERE]
+[
 
-#### Step 2: Create a `/tts` endpoint that accepts `q` query param with input text
+Could you find the necessary information? If not what topics were difficult to find?
 
-[ENTER YOUR FEEDBACK HERE]
+How would you change the structure/navigation of the docs? Recommend changes.
 
-#### Step 3: Schedule task with received text to be converted on Golem Network
+Are examples and tutorials useful? What was missing, and what was too detailed or unnecessary?
 
-[ENTER YOUR FEEDBACK HERE]
+Have you noticed any errors? Please describe them or provide links to issues if you have already reported them.
 
-#### Step 4: Scale number of contracted providers as more requests are received
+]
 
-[ENTER YOUR FEEDBACK HERE]
+#### JS golem-js
 
-## General feedback:
-Is there anything else you'd like to share about your experience 
-completing this task or using the Golem Network in general? 
+[
+    
+Is the API natural to solve the tasks? If not how would you expect it to be?
 
-[ENTER YOUR FEEDBACK HERE]
+Have you encountered any errors in the golem-js lib? Provide the link to issues.
 
-### Suggestions for Improvement
+What additional features would you add?
 
-[Insert any suggestions you have for improving the task or our ecosystem here]
+]
+
+#### General feedback:
+
+[
+
+What was your general experience with Golem Network?
+
+In what projects could you utilize Golem Network?
+
+]
+
+#### Preview Program
+
+[
+
+Were the tasks and instructions adequate? 
+
+What tasks would you suggest to add or change?
+
+]
+
+---
 
 Thank you for your feedback and for contributing to the Golem Network!
