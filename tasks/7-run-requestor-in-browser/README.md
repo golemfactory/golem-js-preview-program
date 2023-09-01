@@ -19,6 +19,10 @@ Users should be able to select the desired conversion and click on the Run butto
 
 2. Add a requestor script and integrate it with the page components so the results are properly displayed.
 
+3. Add changes in the `run-requestor-in-browser` directory.
+
+4. [Fill out the feedback form](./FEEDBACK.md) and publish changes in your repository fork.
+
 
 ## Additional info
 
@@ -28,7 +32,7 @@ Users should be able to select the desired conversion and click on the Run butto
 
 - Golem JS examples of transferring data are [here](https://docs.golem.network/creators/javascript/tutorials/transferring-data).
 
-- That image's `hash` with `ImageMagick` is `7faa6a327c0a568fb3ad18ed1adf91a7493a445fc0dc640ab3d2eab0`.
+- The image's `hash` with `ImageMagick` is `7faa6a327c0a568fb3ad18ed1adf91a7493a445fc0dc640ab3d2eab0`.
 
 - VOLUME is created as `/golem/input` and `/golem/output`.
 

@@ -26,6 +26,10 @@ Note that for a bigger database, it might be more efficient to include the db  i
     - Send the db only once to each provider as an initialization step
     - Run the validation in parallel and display the output to the user
 
+3. Add changes in the `initialise-workers` directory.
+
+4. [Fill out the feedback form](./FEEDBACK.md) and publish changes in your repository fork.
+
 ## Additional info
 
 - The example demonstrates that the requestor and provider side components of the app can be written in different languages.

@@ -16,6 +16,9 @@ Create a requestor script that will demand only providers with at least 4GB RAM 
 
 2. Add custom ProposlaFilter, to select providers within the desired price range.
 
+3. Add changes in the `select-prividers` directory.
+
+4. [Fill out the feedback form](./FEEDBACK.md) and publish changes in your repository fork.
 ## Additional info
 
 - Golem JS demand options and custom ProsoalFilters are demonstrated in [examples](https://docs.golem.network/creators/javascript/examples/selecting-providers).

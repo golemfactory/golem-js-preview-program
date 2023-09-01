@@ -7,13 +7,13 @@ Thank you for taking the time to complete this Golem JS Preview Program task!
 We appreciate your valuable feedback and suggestions on how to improve the Golem Network.
 Please fill out the form below:
 
-## Task #8 - Provider Selection
+## Task #9 - Golem as a backend
 
 ### Estimated completion time:
 | Task Step                     | Completion Time (in minutes) |
 |-------------------------------|------------------------------|
-| Create a requestor script with specified demand  |                              |
-| Add custom ProposalFilter |                              |
+| Create a web page  |                              |
+| Create a server |                              |
 
 List any additional steps that were necessary to resolve the task (other than the steps in the README.md):
 
