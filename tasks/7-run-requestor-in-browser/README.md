@@ -24,6 +24,8 @@ Users should be able to select the desired conversion and click on the Run butto
 
 - Golem JS requestor in a browser [tutorial](https://docs.golem.network/creators/javascript/tutorials/running-in-browser).
 
+- Remember that you need to use `yagna` in a version 0.13+ and run it with `--api-allow-origin` option. 
+
 - Golem JS examples of transferring data are [here](https://docs.golem.network/creators/javascript/tutorials/transferring-data).
 
 - That image's `hash` with `ImageMagick` is `7faa6a327c0a568fb3ad18ed1adf91a7493a445fc0dc640ab3d2eab0`.

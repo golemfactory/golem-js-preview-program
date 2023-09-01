@@ -6,7 +6,6 @@ Golem JS SDK enables users to send files to Providers.
 
 In this challenge, you will learn how to upload files.
 
-
 ## Task description
 
 Create a tool that uses the Golem Network to host OCR conversion tools on your custom image. You can use the i.e. [tesseract](https://github.com/tesseract-ocr/tesseract) engine to create your image.
