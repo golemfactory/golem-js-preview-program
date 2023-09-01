@@ -1,109 +1,47 @@
-# Task #5 - Best Provider Selection
 
+# Task #6 - Initialize workers
 
-In many scenarios, users need to validate some data against another set of data. In this challenge, we will simulate such a scenario using the database of world cities. As a reference database, you can use i.e. https://simplemaps.com/data/world-cities (requires attribution). You can also use any Golem image with `node.js` (like the one used in the JS QuickStart) or create a custom one. You need to write a tool (validator.mjs) that will scan the database in order to check if any of the words in the input file is listed as a city name in DB and save the results to a file. Finally, write a requestor script that will: send all 3 files (the .csv file with the reference database, a file with sample words to be checked, and your validator.mjs script) to a remote node. Then run the validation tool, collect the results, and display them to the user. 
+## Why
 
-Note that for a bigger database, it might be more efficient to include the db and validation script already inside the image, to avoid sending it each time over the network. Nevertheles this task is about sending files 
+Provider nodes can be initialized so the preparation tasks are executed only once per provider.
 
-**Below you will find the following information:**
+In this task, you will learn how to set up providers once per the job. 
 
-- [Task Details](#task-details)
-- [How to express interest in completing it as part of the JS Preview Program?](#how-to-express-interest-in-completing-this-task-as-part-of-the-js-preview-program)
-- [How to report completion of the task?](#how-to-report-completing-this-task)
-- [How we will distribute more than $2500 to creators who provide the most valuable feedback?](#how-will-we-distribute-over-2500-in-additional-funds-to-creators-of-the-most-valuable-feedback)
-- [Useful links](#useful-links-)
+## Task description
 
----
+In this challenge, we will simulate a scenario, in which a user needs to validate some data against another set of data. The scenario assumes that the database must be uploaded to the provider before running the tasks, but as we run multiple tasks, we want to avoid sending the database for each validation. Instead, we would rather upload the database once per provider and then run a series of checks.
 
-## Task Details
+As a reference database, we can use i.e. https://simplemaps.com/data/world-cities (requires attribution). 
 
-### Why:
+The validation task can be performed by the `simFinder.py` script that is already available in the image. Your task is to build an app that will take a file with 10 test words and in parallel validate them against the database on 3 providers. 
 
-Since the Golem Network consists of hundreds of different providers, they can vary in performance or stability. 
-To ensure a scheduled task is completed correctly, for a reasonable price, and in the desired timescale, 
-you can evaluate offers received from the network and pick the best provider using a verification task to measure their performance and stability.
+Note that for a bigger database, it might be more efficient to include the db  inside the image, to avoid sending it each time over the network.
 
-### Description: 
+### Steps
 
-Create a Node.js script that selects the best provider to run a Golem task based on factors such as price, reliability, and performance. 
+0. Create a test set.
 
-The script will run a simple benchmarking task first (i.e. blender rendering of 1 scene) on multiple providers that fit your demands, 
-then measure computing time and final costs and use this data together to identify 
-the best provider to run the final task (e.g. blender rendering of more scenes). 
+1. Create a requestor script that will:
+    - Limit the number of parallel tasks to 3
+    - Send the db only once to each provider as an initialization step
+    - Run the validation in parallel and display the output to the user
 
-You could also keep a list of any benchmarking data about providers in a file for future use.
+## Additional info
 
-### Steps:
+- The example demonstrates that the requestor and provider side components of the app can be written in different languages.
 
-1. Create a `harvest.js` script that renders one blender frame as a benchmark on multiple providers and creates a reliable providers list. For example, this could contain the IDs of providers who have finished a task successfully, containing details of their execution time and total cost
-2. Create an `execute.js` script that renders 20 frames on one of the top 3 providers, which has been selected based on the results achieved during the benchmarking stage. Script should wait for offer from one of the providers with selected ID, and if there are no matching offers in a certain time window, a task should be cancelled.
-3. [Fill out the feedback form](./FEEDBACK.md) and publish changes in your repository fork
+- Golem JS tasks explaining how to run tasks are [here](https://docs.golem.network/creators/javascript/examples/executing-tasks).
 
-### Useful links to solve this task
+- That image's `hash` with python and `simPinfer.py` is `ef644db8a5b8694db3521a6ae164e5c4d75187b30bc4b95d5dc5ba06`.
 
-- https://docs.golem.network/creators/javascript/mid-level/examples/hello/
-- https://docs.golem.network/creators/javascript/mid-level/
-- https://docs.golem.network/creators/javascript/docs/
-- https://docs.golem.network/creators/javascript/docs/readme/
+- The image had WORKDIR set as `/golem/work` and `simPinfer.py` is stored in that folder.
 
----
+- The script calculates the normalized Levenshtein distance between the provided word and each of the city names (second column in reference db) and returns info on entries that distance smaller than 0.7.
 
-## How to express interest in completing this task as part of the JS Preview Program?
+- The image had VOLUME set as `/golem/input`.
 
-1. Choose one platform through which we will settle your work - you decide which platform is more convenient for you:
-  - [Freelancer.com](https://freelancer.com): < link to this task on this platform >
-  - [Upwork.com](https://upwork.com): < link to this task on this platform >
-  - [Fiverr.com](https://fiverr.com): < link to this task on this platform >
+- The usage example of the `simFinder` script:
+`python3 simFinder.py --w <input-word> --db <db-csv-file> `.
 
-2. Reply to a task brief on a selected platform and tell us a few words about your experience in JS development - we need to know you are the right person! Based on your experience, we will select testers to help us improve our JS API.
-3. Once your application has been accepted, you can proceed with the task.
+- You can always ask on the [Discord](https://chat.golem.network/) `#js-discussion` channel in the SDK section.
 
----
-
-## How to report completing this task?
-
-1. After completing all the steps outlined in ["Task Details"](#task-details), return to the selected billing platform (Freelancer / Upwork / Fiverr) and, in response to the task, send your **GitHub username** and the **email address** provided in the GitHub submission form.
-2. Next, an SDK department employee will verify your task. We will reject feedback such as "Ok." or "Cool." We value honest and helpful feedback, which is the goal of this program.
-3. How do we determine if feedback is valid? We seek feedback that has a groundbreaking nature or has a potential impact on the Golem platform. For example, it can include the most challenging issue (technical or functional) you faced during the implementation of the particular task(s) and the steps you took to solve it.
-4. Once your feedback is approved, we will make a payment.
-
-**Guaranteed reward** for first 30 accepted submissions: **100$**
-
----
-
-## How will we distribute over $2500 in additional funds to creators of the most valuable feedback?
-
-We're interested in hearing about any difficult obstacles you encountered and how you overcame them with your creativity 
-and resourcefulness. So, let's hear all the juicy details to help make Golem even more amazing. 
-
-The authors of the most valuable feedback will receive even more money, with a **prize pool of over $2500 up for grabs**.
-
-And remember - if you want to simply earn more, just do more tasks! 
-[The list and descriptions of all of the tasks](../../README.md#available-tasks) + [the terms & conditions](../../TERMS_AND_CONDITIONS.md) of the additional competition (PRIZE POOL over $2500!) 
-can be found at **https://preview.golem.network/**
-
----
-
-## Useful links:
-
-- Javascript docs: https://docs.golem.network/creators/javascript/quickstart/
-- Dapps docs: https://docs.golem.network/creators/dapps/ 
-- Need help? Go to https://chat.golem.network/ & find the `#js-discussion` channel in the SDK section
-- Official Golem Network website: https://www.golem.network/
-- Want to join our team? https://www.golem.network/careers 
-
-**What is the Golem Network?**
-
-We are building a new open-source world that everyone has the right to enter. 
-The Golem Network is a flexible and open-source platform that harnesses the power of decentralization for 
-accessing and sharing computational resources.
-
-**Our new Golem JS Api lets you:**
-
-- Develop distributed open-source computing solutions for a wide range of use cases
-- Run tasks on the Golem Network directly from your browser
-- Create serverless applications using Golem as your computation backend
-
-With your feedback, our open-source platform, the Golem Network, will become even more attractive to other developers! 
-
-**Thank you!**
