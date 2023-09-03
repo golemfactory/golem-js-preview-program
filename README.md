@@ -44,7 +44,7 @@ You will learn how to run a requestor from a browser. On the practical side - co
 ### [Task #8 - Select providers](tasks%2F8-select-providers)
 You will learn how to define how strong a provider you seek and how to filter providers' proposals. On the practical side, just a little bit of math to calculate the expected price. 
 
-### [Task #9 - Use Golem as backend](tasks%2F9-use-Golem-as-backend)
+### [Task #9 - Use Golem as backend](tasks%2F9-use-as-backend)
 You will learn how to utilize Golem to offload your system. On the practical side, you will use speech-to-text AI software without installation.
 
 ### [Task #A - Run the task on mainnet](tasks%2FA-run-on-mainnet)
