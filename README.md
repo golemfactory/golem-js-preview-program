@@ -17,7 +17,7 @@ We also encourage you to visit https://www.golem.network/, where you can find mo
 
 ## Available Tasks
 
-### [#0 - Yagna Setup](tasks%2F0-yagna-setup)
+### [Task #0 - Yagna Setup](tasks%2F0-yagna-setup)
 You will learn how to install and run the Yagna service to allow you to run tasks on the Golem Network, and how to get funds on the testnet. 
 
 ### [Task #1 - Run a task in the Golem Network](tasks%2F1-run-a-task)

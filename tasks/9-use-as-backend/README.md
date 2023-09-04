@@ -8,7 +8,7 @@ In this task, you will learn how to utilize Golem to offload your system.
 
 ## Task description
 
-Build a web application that will accept mp3 files, (split them into smaller chunks,) perform STT conversion, and display the transcription.
+Build a web application that will accept mp3 files, (split them into smaller chunks), perform STT conversion, and display the transcription.
 
 You can use an image prepared by Golem with `whisper`.
 
