@@ -15,6 +15,8 @@ Users should be able to select the desired conversion and click on the Run butto
 
 ### Steps
 
+Please observe how long it takes to complete the technical part of the tasks. We will ask you for such information in the feedback form.
+
 1. Create a web page, that allows the user to upload his image and select the desired conversions.
 
 2. Add a requestor script and integrate it with the page components so the results are properly displayed.

@@ -14,6 +14,8 @@ You can use an image prepared by Golem with `whisper`.
 
 ### Steps
 
+Please observe how long it takes to complete the technical part of the tasks. We will ask you for such information in the feedback form.
+
 1. Create a web page that will offer UI to upload wav files and display the output text after STT conversion.
 
 2. Create a server that will accept the wav files and will do STT conversion on the Golem Network. 
@@ -28,6 +30,6 @@ You can use an image prepared by Golem with `whisper`.
 
 - The image had VOLUME set as `/golem/work`.
 
-- The `whisper` tool usage is: `whisper audio.wav --model tiny --language en`;
+- The `whisper` tool usage is: `whisper audio.wav --model tiny --language en`.
 
 - You can always ask on the [Discord](https://chat.golem.network/) `#js-discussion` channel in the SDK section.

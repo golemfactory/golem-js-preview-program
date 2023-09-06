@@ -12,6 +12,8 @@ Create a script that will accept the user-provided text as input and convert it 
 
 ### Steps
 
+Please observe how long it takes to complete the technical part of the tasks. We will ask you for such information in the feedback form.
+
 1. Modify the `main.mjs` script to execute the text-2-speech conversion commands.
 
 2. Run the script and verify the output.

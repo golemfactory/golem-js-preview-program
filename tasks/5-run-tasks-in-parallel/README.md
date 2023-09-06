@@ -14,6 +14,8 @@ For this task create a set of 5 low-resolution anime images as input data. Your 
 
 ### Steps
 
+Please observe how long it takes to complete the technical part of the tasks. We will ask you for such information in the feedback form.
+
 0. Prepare test data.
 
 2. Create a requestor script that will run the image conversion.

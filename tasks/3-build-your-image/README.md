@@ -14,6 +14,8 @@ The `generator.mjs` script generates a sequence of n random numbers with a norma
 
 ### Steps
 
+Please observe how long it takes to complete the technical part of the tasks. We will ask you for such information in the feedback form.
+
 1. Create a Dockerfile, build a Docker image, convert it to the Golem image format, and upload it to the Golem registry.
 
 2. Create a requestor script that will run the generator and display download results.

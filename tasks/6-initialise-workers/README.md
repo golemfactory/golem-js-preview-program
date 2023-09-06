@@ -19,6 +19,8 @@ Note that for a bigger database, it might be more efficient to include the db  i
 
 ### Steps
 
+Please observe how long it takes to complete the technical part of the tasks. We will ask you for such information in the feedback form.
+
 0. Create a test set.
 
 1. Create a requestor script that will:

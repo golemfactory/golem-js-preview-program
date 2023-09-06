@@ -41,9 +41,9 @@ Have you noticed any errors? Please describe them or provide links to issues if 
 
 [
     
-Is the API natural to solve the tasks? If not how would you expect it to be?
+Is JS SDK API intuitive and helps solve the tasks? If not, what would you change?
 
-Have you encountered any errors in the golem-js lib? Provide the link to issues.
+Have you encountered any errors in the golem-js lib? Provide the link(s) to the issue(s) in `golem-js` [repository](https://github.com/golemfactory/golem-js/issues) which you had reported.
 
 What additional features would you add?
 
@@ -53,7 +53,8 @@ What additional features would you add?
 
 [
 
-What was your general experience with Golem Network?
+What was your general experience with Golem Network? What was difficult/frustrating? 
+What was a nice surprise?
 
 In what projects could you utilize Golem Network?
 
@@ -63,11 +64,12 @@ In what projects could you utilize Golem Network?
 
 [
 
-Were the tasks and instructions adequate? 
+Were the tasks and instructions adequate and clear? 
 
-What tasks would you suggest to add or change?
+Is there anything you would improve about the JS Preview program?
 
 ]
+
 
 ---
 

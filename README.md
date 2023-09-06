@@ -30,7 +30,7 @@ You will learn how to run a task on a remote node and take the result file back.
 You will learn how to create a custom image and run a script that utilizes it. On the practical side, you will build a Docker image with your script.
 
 ### [Task #4 - Send files](tasks%2F4-send-files)
-You will learn how to upload and download files. On the practical side, you will check how many cities above 10k inhabitants are there around the world.
+You will learn how to upload and download files. On the practical side, you play with an OCR tool.
 
 ### [Task #5 - Run tasks in parallel](tasks%2F5-run-tasks-in-parallel)
 You will learn how to run tasks in parallel. On the practical side, you will upscale anime images. 

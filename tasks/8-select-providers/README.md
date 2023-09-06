@@ -12,6 +12,8 @@ Create a requestor script that will demand only providers with at least 4GB RAM 
 
 ### Steps
 
+Please observe how long it takes to complete the technical part of the tasks. We will ask you for such information in the feedback form.
+
 1. Create a requestor script that will specify that the minimal amount of RAM is 4GB.
 
 2. Add custom ProposlaFilter, to select providers within the desired price range.

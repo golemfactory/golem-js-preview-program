@@ -13,6 +13,8 @@ Create a tool that uses the Golem Network to host OCR conversion tools on your c
 
 ### Steps
 
+Please observe how long it takes to complete the technical part of the tasks. We will ask you for such information in the feedback form.
+
 1. Create your custom image.
 
 2. Create a requestor script that would take the input image, send it to the provider, run the conversion, and download the output as a file.
@@ -27,7 +29,7 @@ Create a tool that uses the Golem Network to host OCR conversion tools on your c
 
 - Note you might need to include in the image not only the OCR tool but also language libraries.
 
-- For the `essseract-ocr` tool usage examples and test data are available [here](https://tesseract-ocr.github.io/tessdoc/Command-Line-Usage.html#simplest-invocation-to-ocr-an-image).
+- For the `tessseract-ocr` tool usage examples and test data are available [here](https://tesseract-ocr.github.io/tessdoc/Command-Line-Usage.html#simplest-invocation-to-ocr-an-image).
 
 - Golem JS data transfer examples are available [here](https://docs.golem.network/creators/javascript/examples/transferring-data).
 
