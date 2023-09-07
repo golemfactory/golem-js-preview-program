@@ -36,7 +36,7 @@ Please observe how long it takes to complete the technical part of the tasks. We
 
 - The example demonstrates that the requestor and provider side components of the app can be written in different languages.
 
-- Golem JS tasks explaining how to run tasks are [here](https://docs.golem.network/docs/creators/javascript/examples/executing-tasks).
+- Golem JS tasks explaining how to run tasks and initialize providers are [here](https://docs.golem.network/docs/creators/javascript/examples/executing-tasks).
 
 - That image's `hash` with python and `simPinfer.py` is `ef644db8a5b8694db3521a6ae164e5c4d75187b30bc4b95d5dc5ba06`.
 

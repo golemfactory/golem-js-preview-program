@@ -30,7 +30,7 @@ Please observe how long it takes to complete the technical part of the tasks. We
 
 - Golem JS requestor in a browser [tutorial](https://docs.golem.network/docs/creators/javascript/tutorials/running-in-browser).
 
-- Remember that you need to use `yagna` in a version 0.13+ and run it with `--api-allow-origin` option. 
+- Ensure you have yagna version 0.13.0 or higher installed and start it using `yagna --api-allow-origin=“*”` for proper browser functionality.
 
 - Golem JS examples of transferring data are [here](https://docs.golem.network/docs/creators/javascript/tutorials/transferring-data).
 
