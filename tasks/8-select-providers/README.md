@@ -21,7 +21,7 @@ Please observe how long it takes to complete the technical part of the tasks. We
 3. Add changes in the `select-prividers` directory.
 
 4. [Fill out the feedback form](./FEEDBACK.md) and publish changes in your repository fork.
-## Additional info
+## Helpful resources
 
 - Golem JS demand options and custom ProsoalFilters are demonstrated in [examples](https://docs.golem.network/creators/javascript/examples/selecting-providers).
 

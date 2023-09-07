@@ -25,7 +25,7 @@ Please observe how long it takes to complete the technical part of the tasks. We
 5. [Fill out the feedback form](./FEEDBACK.md) and publish changes in your repository fork.
 
 
-## Additional info
+## Helpful resources
 
 - You can review our guide on selecting the network: [here](https://docs.golem.network/docs/creators/javascript/guides/switching-to-mainnet).
 

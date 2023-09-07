@@ -18,9 +18,9 @@ Install and configure the Yagna service on your machine to allow you to run task
 
 3. Verify the contents of the `result.json` file to see e.g. the name of the provider who has run your task.
 
-## Additional info
+## Helpful resources
 
-- Yagna service setup instructions are available [here](https://docs.golem.network/creators/javascript/examples/tools/yagna-installation-for-requestors).
+- Yagna service setup instructions are available [here](https://docs.golem.network/docs/creators/javascript/examples/tools/yagna-installation-for-requestors).
 
 - You might also like to review Node.js [QuickStart](https://docs.golem.network/creators/javascript/quickstars/quickstart) in the Docs.
 
