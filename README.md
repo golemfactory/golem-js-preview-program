@@ -55,7 +55,7 @@ You will learn how to run the tasks on a mainnet network using real Golem tokens
 
 ## Useful links:
 
-- Javascript docs: https://docs.golem.network/creators/javascript/javascript/
+- Javascript docs: https://docs.golem.network/docs/creators/javascript/javascript/
 
 - Need help? Go to https://chat.golem.network/ & find the `#js-discussion` channel in the SDK section
 

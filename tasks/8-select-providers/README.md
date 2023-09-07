@@ -23,7 +23,7 @@ Please observe how long it takes to complete the technical part of the tasks. We
 4. [Fill out the feedback form](./FEEDBACK.md) and publish changes in your repository fork.
 ## Helpful resources
 
-- Golem JS demand options and custom ProsoalFilters are demonstrated in [examples](https://docs.golem.network/creators/javascript/examples/selecting-providers).
+- Golem JS demand options and custom ProsoalFilters are demonstrated in [examples](https://docs.golem.network/docs/creators/javascript/examples/selecting-providers).
 
 The pricing model is documented [here](https://github.com/golemfactory/golem-architecture/blob/master/standards/3-commercial/com/pricing/model.md)
 

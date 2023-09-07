@@ -26,7 +26,7 @@ Please observe how long it takes to complete the technical part of the tasks. We
 
 ## Helpful resources
 
-- Golem JS [QuickStart](https://docs.golem.network/creators/javascript/quickstars/quickstart).
+- Golem JS [QuickStart](https://docs.golem.network/docs/creators/javascript/quickstars/quickstart).
 
 - Remember that directories defined as VOLUMES are reset at the VM start.
 
@@ -35,6 +35,6 @@ Please observe how long it takes to complete the technical part of the tasks. We
 - The usage example of the `generator.mjs` script:
 `node generator.mjs --sample=<sample_count>`.
 
-- Golem JS image conversion instructions are available in [examples](https://docs.golem.network/creators/javascript/examples) and [tutorial](https://docs.golem.network/creators/javascript/tutorials/building-custom-image).
+- Golem JS image conversion instructions are available in [examples](https://docs.golem.network/docs/creators/javascript/examples) and [tutorial](https://docs.golem.network/docs/creators/javascript/tutorials/building-custom-image).
 
 - You can always ask on the [Discord](https://chat.golem.network/) `#js-discussion` channel in the SDK section.

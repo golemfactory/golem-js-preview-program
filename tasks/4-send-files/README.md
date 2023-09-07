@@ -25,12 +25,12 @@ Please observe how long it takes to complete the technical part of the tasks. We
 
 ## Helpful resources
 
-- Golem JS image conversion instructions are available in [examples](https://docs.golem.network/creators/javascript/examples) and [tutorial](https://docs.golem.network/creators/javascript/tutorials/building-custom-image).
+- Golem JS image conversion instructions are available in [examples](https://docs.golem.network/docs/creators/javascript/examples) and [tutorial](https://docs.golem.network/docs/creators/javascript/tutorials/building-custom-image).
 
 - Note you might need to include in the image not only the OCR tool but also language libraries.
 
 - For the `tessseract-ocr` tool usage examples and test data are available [here](https://tesseract-ocr.github.io/tessdoc/Command-Line-Usage.html#simplest-invocation-to-ocr-an-image).
 
-- Golem JS data transfer examples are available [here](https://docs.golem.network/creators/javascript/examples/transferring-data).
+- Golem JS data transfer examples are available [here](https://docs.golem.network/docs/creators/javascript/examples/transferring-data).
 
 - You can always ask on the [Discord](https://chat.golem.network/) `#js-discussion` channel in the SDK section.

@@ -24,7 +24,7 @@ Please observe how long it takes to complete the technical part of the tasks. We
 
 ## Helpful resources
 
-- Golem JS [QuickStart](https://docs.golem.network/creators/javascript/quickstarts/quickstart).
+- Golem JS [QuickStart](https://docs.golem.network/docs/creators/javascript/quickstarts/quickstart).
 
 - The image has VOLUME defined as `/golem/work`. 
 
