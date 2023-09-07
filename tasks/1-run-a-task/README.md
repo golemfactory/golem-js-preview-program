@@ -30,8 +30,17 @@ Please observe how long it takes to complete the technical part of the tasks. We
 
 - The usage example of the `fortune` command:
 
-    `fortune -l` will produce a sentence from literature
+    `fortune -l` will produce a sentence from literature, i.e.:
+        ```When I was younger, I could remember anything, whether it had happened
+        or not; but my faculties are decaying now and soon I shall be so I
+        cannot remember any but the things that never happened.  It is sad to
+        go to pieces like this but we all have to do it.
+                        -- Mark Twain
+        ```
 
-    `fortune -c` will produce a short fortune
+    `fortune -i` will produce a short fortune, i.e.:
+
+        ```Don't hate yourself in the morning -- sleep till noon.
+        ```
 
 - You can always ask on the [Discord](https://chat.golem.network/) `#js-discussion` channel in the SDK section.
