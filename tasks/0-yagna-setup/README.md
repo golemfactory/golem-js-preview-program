@@ -22,7 +22,9 @@ Install and configure the Yagna service on your machine to allow you to run task
 
 - Yagna service setup instructions are available [here](https://docs.golem.network/docs/creators/javascript/examples/tools/yagna-installation-for-requestors).
 
-- You might also like to review Node.js [QuickStart](https://docs.golem.network/docs/creators/javascript/quickstars/quickstart) in the Docs.
+- You might also like to review Node.js [QuickStart](https://docs.golem.network/docs/creators/javascript/quickstarts/quickstart) in the Docs.
+
+
 
 - If you want to use a unique app-key and not store it in the GitHub repo, please check these [example](https://docs.golem.network/docs/creators/javascript/examples/using-app-keys) how to generate a unique key, and how to use `YAGNA_APPKEY` environment variable.
 
