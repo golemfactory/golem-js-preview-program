@@ -26,7 +26,7 @@ Please observe how long it takes to complete the technical part of the tasks. We
 
 ## Helpful resources
 
-- Golem JS [QuickStart](https://docs.golem.network/docs/creators/javascript/quickstars/quickstart).
+- Golem JS [QuickStart](https://docs.golem.network/docs/creators/javascript/quickstarts/quickstart).
 
 - That image's `hash` is `28716c377b8484abe9fb11dfb94b97831233f18a42658d677657f88b`.
 
