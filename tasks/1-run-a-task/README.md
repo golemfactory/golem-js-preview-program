@@ -2,9 +2,9 @@
 
 ## Why
 
-Golem users executes tasks in a defined environment on a remote computer.
+Golem users execute tasks on remote computers.
 
-In this exercise, you will learn how to create a script that will utilize a specific image and how to run a task on a remote node.
+In this exercise, you will learn how to create a script that will run a task on a remote node and utilize a specific image.
 
 ## Task description
 
@@ -30,7 +30,7 @@ Please observe how long it takes to complete the technical part of the tasks. We
 
 - The usage example of the `fortune` command:
 
-    `fortune -l` will produce a senctence from literature
+    `fortune -l` will produce a sentence from literature
 
     `fortune -c` will produce a short fortune
 
