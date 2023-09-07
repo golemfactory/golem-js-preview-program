@@ -9,6 +9,6 @@
   "author": "Golem Factory GmbH",
   "license": "GPL-3.0 license",
   "dependencies": {
-    "@golem-sdk/golem-js": "^0.8.2"
+    "@golem-sdk/golem-js": "^0.10.1"
   }
 }

@@ -12,7 +12,7 @@ Install and configure the Yagna service on your machine to allow you to run task
 
 ## Steps
 
-1. Install and configure the Yagna service.
+1. Install and configure the [Yagna service](https://docs.golem.network/docs/creators/javascript/examples/tools/yagna-installation-for-requestors).
 
 2. Run a verification script: `npm run verify`.
 
@@ -22,11 +22,9 @@ Install and configure the Yagna service on your machine to allow you to run task
 
 - Yagna service setup instructions are available [here](https://docs.golem.network/docs/creators/javascript/examples/tools/yagna-installation-for-requestors).
 
-- You might also like to review Node.js [QuickStart](https://docs.golem.network/docs/creators/javascript/quickstarts/quickstart) in the Docs.
+- You might also want to review Node.js [QuickStart](https://docs.golem.network/docs/creators/javascript/quickstarts/quickstart) in the Docs.
 
-
-
-- If you want to use a unique app-key and not store it in the GitHub repo, please check these [example](https://docs.golem.network/docs/creators/javascript/examples/using-app-keys) how to generate a unique key, and how to use `YAGNA_APPKEY` environment variable.
+- If you wish to use a unique app-key without storing it in the GitHub repository, please refer to the [example](https://docs.golem.network/docs/creators/javascript/examples/using-app-keys) on how to generate a unique key and how to utilize the `YAGNA_APPKEY` environment variable.
 
 - Do not forget to run `npm install` to install our libraries.
 
