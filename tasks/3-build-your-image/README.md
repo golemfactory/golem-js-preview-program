@@ -26,7 +26,7 @@ Please observe how long it takes to complete the technical part of the tasks. We
 
 ## Helpful resources
 
-- Golem JS [QuickStart](https://docs.golem.network/docs/creators/javascript/quickstars/quickstart).
+- Golem JS [QuickStart](https://docs.golem.network/docs/creators/javascript/quickstarts/quickstart).
 
 - Remember that directories defined as VOLUMES are reset when running the image on the remote node, so anything you copy into the directory during build of the docker image will be lost.
 
