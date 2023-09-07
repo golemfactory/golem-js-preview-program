@@ -8,8 +8,8 @@ import argparse
 
 
 argParser = argparse.ArgumentParser()
-argParser.add_argument('--db', type=str, required=True, help="citi db in csv formt")
-argParser.add_argument('--w', type=str, required=True, help="word for which we look for similar citiname")
+argParser.add_argument('--db', type=str, required=True, help="city db in csv formt")
+argParser.add_argument('--w', type=str, required=True, help="word for which we look for similar city name")
 
 args = argParser.parse_args()
 

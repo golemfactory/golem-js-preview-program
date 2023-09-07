@@ -5,13 +5,13 @@
 
 Provider nodes can be initialized so the preparation tasks are executed only once per provider.
 
-In this task, you will learn how to set up providers once per the job. 
+In this task, you will learn how to initialize providers once for all the subsequent tasks. 
 
 ## Task description
 
 In this challenge, we will simulate a scenario, in which a user needs to validate some data against another set of data. The scenario assumes that the database must be uploaded to the provider before running the tasks, but as we run multiple tasks, we want to avoid sending the database for each validation. Instead, we would rather upload the database once per provider and then run a series of checks.
 
-As a reference database, we can use i.e. https://simplemaps.com/data/world-cities (requires attribution). 
+As a reference database, we can use i.e. https://simplemaps.com/data/world-cities. 
 
 The validation task can be performed by the `simFinder.py` script that is already available in the image. Your task is to build an app that will take a file with 10 test words and in parallel validate them against the database on 3 providers. 
 
