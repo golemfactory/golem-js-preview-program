@@ -32,7 +32,7 @@ Please observe how long it takes to complete the technical part of the tasks. We
 
 - Ensure you have yagna version 0.13.0 or higher installed and start it using `yagna --api-allow-origin=“*”` for proper browser functionality.
 
-- Golem JS examples of transferring data are [here](https://docs.golem.network/docs/creators/javascript/tutorials/transferring-data).
+- Golem JS examples of transferring data are [here](https://docs.golem.network/docs/creators/javascript/examples/transferring-data).
 
 - The image's `hash` with `ImageMagick` is `7faa6a327c0a568fb3ad18ed1adf91a7493a445fc0dc640ab3d2eab0`.
 
