@@ -1,4 +1,4 @@
-# Task #1 - Download results 
+# Task #2 - Download results 
 
 ## Why
 
@@ -24,9 +24,9 @@ Please observe how long it takes to complete the technical part of the tasks. We
 
 ## Helpful resources
 
-- Golem JS [QuickStart](https://docs.golem.network/creators/javascript/quickstars/quickstart).
+- Golem JS [QuickStart](https://docs.golem.network/creators/javascript/quickstarts/quickstart).
 
-- The image has VOLUME defined as `/golem/work`.
+- The image has VOLUME defined as `/golem/work`. 
 
 - The usage example of `espeak` command to convert text to speech in `.wav` format:
 `espeak "Hello Golem" -w /golem/work/result.wav`.
@@ -34,6 +34,6 @@ Please observe how long it takes to complete the technical part of the tasks. We
 - The usage example of `ffmpeg` command to convert `.wav` to a `.mp3` file:
 `ffmpeg -i /golem/work/result.wav /golem/work/result.mp3`.
 
-- Golem JS data transfer [examples](https://docs.golem.network/creators/javascript/examples/transferring-data#downloading-a-file-from-the-provider).
+- Golem JS data transfer [examples](https://docs.golem.network/docs/creators/javascript/examples/transferring-data#downloading-a-file-from-the-provider).
 
 - You can always ask on the [Discord](https://chat.golem.network/) `#js-discussion` channel in the SDK section.
