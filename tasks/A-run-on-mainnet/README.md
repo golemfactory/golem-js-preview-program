@@ -2,21 +2,21 @@
 
 ## Why
 
-Golem Network providers can be used for real. 
+Golem Network `mainnet` providers can much more resources than the `testnet`. 
 
-In this challenge, you will dare to run the tasks on a public network using real Golem tokens.
+In this challenge, you will run a task on a `mainnet` network using real Golem tokens.
 
 ## Task description
 
-Acquire GLMs and MATICS to your requestor's address, enable payments on the mainnet network, and run any of your scripts on the paid network.
+Acquire GLM and MATIC to your requestor’s address, enable payments on the mainnet network, and run any of your scripts on the paid network.
 
 ### Steps
 
 Please observe how long it takes to complete the technical part of the tasks. We will ask you for such information in the feedback form.
 
-1. Back up the `yagna` wallet and secure `yagna` Configure it to allow payments on the Polygon Network.
+1. Back up the `yagna` wallet and secure `yagna` by locking the key. Configure it to allow payments on the Polygon Network.
 
-2. Acquire MATICs and convert some of them to GLM.
+2. Acquire MATIC and swap some of them to GLM.
 
 3. Configure your scripts to run on the Polygon Network.
 
