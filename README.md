@@ -4,7 +4,7 @@ Welcome to the Golem JS Preview Program repository!
 
 It contains a set of tasks based on the Golem JS SDK. By completing them you will learn how to write JS applications that will execute your tasks on the Golem Network. 
 
-The program is based on the latest @golem-sdk/golem-js library and our new [documentation](https://docs.golem.network/creators/). 
+The program is based on the latest @golem-sdk/golem-js library and our new [documentation](https://docs.golem.network/docs/creators/). 
 
 To participate in the program and win prizes you must be recruited for one of the program editions. For more details on the program check [here](https://preview.golem.network/). Even if we do not run an edition at this moment, you are welcome to use the program to facilitate your tour with Golem and JS SDK. Participants of the program are expected to share their feedback to help us improve the Golem Network, JS SDK, and docs.
 
