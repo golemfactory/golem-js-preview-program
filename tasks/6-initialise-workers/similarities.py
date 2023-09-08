@@ -34,7 +34,7 @@ with open(args.db, "r", encoding="utf-8") as f:
     city_reader.__next__()  # skip the initial header line
 
     for row in city_reader:
-        dist = textdistance.levenshtein.normalized_similarity(word, row[1].lower())
+        dist = levenshtein_distance(word, row[1].lower())
         if dist > MIN_DISTANCE:
             # add to results: word, city name, country, population, distance
             results.append([word] + [row[0], row[4], row[9]] + [dist])
