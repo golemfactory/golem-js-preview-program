@@ -3,7 +3,7 @@
 
 ## Why
 
-In cases when a preparation of a provider node for a given task introduces a considerable overhead, it's preferable that those preparatory actions are executed only once per provider.
+Provider nodes can be initialized so the preparation commands are executed only once per provider.
 
 In this task, you will learn how to initialize each provider once for all the subsequent tasks.
 
@@ -38,7 +38,7 @@ Please note down how long it takes to complete the technical part of the tasks. 
 
 - Golem JS tasks explaining how to run tasks and initialize providers are [here](https://docs.golem.network/docs/creators/javascript/examples/executing-tasks).
 
-- That image's `hash` with python and `similarities.py` is `ef644db8a5b8694db3521a6ae164e5c4d75187b30bc4b95d5dc5ba06`. [ TO BE UPDATED ]
+- That image's `hash` with python and `similarities.py` is `a7db2f25445de01650a62ffcfb35219ed48f014ece83cfea15c36b0f`.
 
 - The image had WORKDIR set as `/golem/work` and the `similarities.py` script is stored in that folder.
 
