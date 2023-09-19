@@ -3,7 +3,7 @@
 Welcome to the Golem JS Preview Program repository! 
 
 Thank you for your interest in the JS Preview Program. Its purpose is to test the new JS API and the new documentation 
-available at https://docs.golem.network/creators/. 
+available at https://docs.golem.network/docs/creators/javascript. 
 
 This repository contains a set of tasks that you can complete to broaden your knowledge and help improve the Golem Network. 
 
