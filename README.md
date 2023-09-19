@@ -6,7 +6,7 @@ It contains a set of tasks based on the Golem JS SDK. By completing them you wil
 
 The program is based on the latest @golem-sdk/golem-js library and our new [documentation](https://docs.golem.network/docs/creators/javascript). 
 
-To participate in the program and win prizes you must be recruited for one of the program rounds. For more details on the program check [here](https://preview.golem.network/). Even if we do not run it at this moment, you are welcome to use the program to facilitate your tour with Golem and JS SDK. Participants of the program are expected to share their feedback to help us improve the Golem Network, JS SDK, and docs.
+To participate in the program and win prizes you must be recruited for one of the program rounds. Even if we do not run the program at the given moment, you are welcome to use the tasks to facilitate your tour with Golem and JS SDK. We would appreciate your feedback to help us improve the Golem Network, JS SDK, and docs.
 
 If you encounter any issues during the work on the tasks ask on the 
 [Discord](https://chat.golem.network/) `#js-discussion` channel in the SDK section. 
