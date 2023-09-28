@@ -91,8 +91,8 @@ can also be found at **https://preview.golem.network/**
 
 ## Useful links:
 
-- Javascript docs: https://docs.golem.network/creators/javascript/quickstart/
-- Dapps docs: https://docs.golem.network/creators/dapps/ 
+- Javascript docs: https://docs.golem.network/docs/creators/javascript/quickstart/
+- Dapps docs: https://docs.golem.network/docs/creators/dapps/ 
 - Need help? Go to https://chat.golem.network/ & find the `#js-discussion` channel in the SDK section
 - Official Golem Network website: https://www.golem.network/
 - Want to join our team? https://www.golem.network/careers 
