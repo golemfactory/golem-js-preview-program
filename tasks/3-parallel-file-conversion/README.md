@@ -1,7 +1,7 @@
 # Task #3 - Parallel File Conversion
 
 Thank you for your interest in the JS Preview Program. Its purpose is to test the new JS API and the new documentation 
-available at https://docs.golem.network/creators/. This is where you should find all the necessary information about 
+available at https://docs.golem.network/docs/creators/. This is where you should find all the necessary information about 
 Golem Network needed to complete this task. 
 
 If you have any questions, we encourage you to contact the SDK team directly, who can help you identify any gaps 
@@ -54,16 +54,16 @@ base64 converted, chunked, and sent as strings within the task, both as input an
 
 ### Useful links to solve this task
 
-- https://docs.golem.network/creators/javascript/high-level/task-model/
-- https://docs.golem.network/creators/javascript/examples/hello/
-- https://docs.golem.network/creators/javascript/examples/web/
-- https://docs.golem.network/creators/javascript/examples/hashcat/
+- https://docs.golem.network/docs/creators/javascript/high-level/task-model/
+- https://docs.golem.network/docs/creators/javascript/examples/hello/
+- https://docs.golem.network/docs/creators/javascript/examples/web/
+- https://docs.golem.network/docs/creators/javascript/examples/hashcat/
 
 ### Steps:
 
 1. Convert the docker image to a [GVMI image](https://handbook.golem.network/requestor-tutorials/vm-runtime/convert-a-docker-image-into-a-golem-image) and publish it to receive an image hash
 2. Create a logic that schedules a task on Golem with image conversion, executed either from Node.js or browser context 
-    - To start, follow this article as a reference - https://docs.golem.network/creators/javascript/examples/hello/
+    - To start, follow this article as a reference - https://docs.golem.network/docs/creators/javascript/examples/hello/
     - Use the `map` or `forEach` method of the `TaskExecutor`, pass n (n depending on the number of image formats) worker functions, each of which will execute the file conversion command on the provider. 
     - For node.js, use the transfer command to send the image file to the provider and receive the result from it. 
     - For the web browser, save to the file on the provider piece by piece the content of the image in base64 format and in the same way send it back to the browser
@@ -109,8 +109,8 @@ can be found at **https://preview.golem.network/**
 
 ## Useful links:
 
-- Javascript docs: https://docs.golem.network/creators/javascript/quickstart/
-- Dapps docs: https://docs.golem.network/creators/dapps/ 
+- Javascript docs: https://docs.golem.network/docs/creators/javascript/quickstart/
+- Dapps docs: https://docs.golem.network/docs/creators/dapps/ 
 - Need help? Go to https://chat.golem.network/ & find the `#js-discussion` channel in the SDK section
 - Official Golem Network website: https://www.golem.network/
 - Want to join our team? https://www.golem.network/careers 
