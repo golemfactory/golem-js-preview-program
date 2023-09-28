@@ -1,7 +1,7 @@
 # Task #1 - Text2Speech
 
 Thank you for your interest in the JS Preview Program. Its purpose is to test the new JS API and the new documentation 
-available at https://docs.golem.network/creators/. This is where you should find all the necessary information about 
+available at https://docs.golem.network/docs/creators/. This is where you should find all the necessary information about 
 Golem Network needed to complete this task. 
 
 If you have any questions, we encourage you to contact the SDK team directly, who can help you identify any gaps 
@@ -44,7 +44,7 @@ Once the generation is complete, an audio file is sent back to the user.
 ### Steps
 
 1. Create a docker image from provided Dockerfile, convert it to a [GVMI](https://handbook.golem.network/requestor-tutorials/vm-runtime/convert-a-docker-image-into-a-golem-image) and publish the generated image to receive an image hash that will be used during the implementation
-2. Modify the `main.mjs` script that will execute the text-2-speech conversion task and will be available under the `npm run tts` command ([Check our docs for introduction and examples](https://docs.golem.network/creators/javascript/high-level/))
+2. Modify the `main.mjs` script that will execute the text-2-speech conversion task and will be available under the `npm run tts` command ([Check our docs for introduction and examples](https://docs.golem.network/docs/creators/javascript/high-level/))
 3. Run the script and verify the output 
 4. Add changes in the `text-2-speech` directory
 5. [Fill out the feedback form](./FEEDBACK.md) and publish changes in your repository fork
@@ -52,8 +52,8 @@ Once the generation is complete, an audio file is sent back to the user.
 
 ### Useful links to solve this task
 
-- https://docs.golem.network/creators/javascript/high-level/task-model/
-- https://docs.golem.network/creators/javascript/examples/hello/
+- https://docs.golem.network/docs/creators/javascript/high-level/task-model/
+- https://docs.golem.network/docs/creators/javascript/examples/hello/
 
 ---
 
@@ -95,8 +95,8 @@ can also be found at **https://preview.golem.network/**
 
 ## Useful links:
 
-- Javascript docs: https://docs.golem.network/creators/javascript/quickstart/
-- Dapps docs: https://docs.golem.network/creators/dapps/ 
+- Javascript docs: https://docs.golem.network/docs/creators/javascript/quickstart/
+- Dapps docs: https://docs.golem.network/docs/creators/dapps/ 
 - Need help? Go to https://chat.golem.network/ & find the `#js-discussion` channel in the SDK section
 - Official Golem Network website: https://www.golem.network/
 - Want to join our team? https://www.golem.network/careers 
