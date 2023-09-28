@@ -16,9 +16,9 @@ Finally, run a verification script to ensure the setup is complete.
 
 ## Steps
 
-1. Follow the yagna daemon setup process available [here](https://docs.golem.network/creators/javascript/quickstart/), until it is running, has funds, and the app key is created.
+1. Follow the yagna daemon setup process available [here](https://docs.golem.network/docs/creators/javascript/quickstart/), until it is running, has funds, and the app key is created.
    
-   > :warning: Remember to **set the `YAGNA_APPKEY` environment variable** in your current terminal session (check [here](https://docs.golem.network/creators/javascript/quickstart/#setup-yagna_appkey) how to do so)
+   > :warning: Remember to **set the `YAGNA_APPKEY` environment variable** in your current terminal session (check [here](https://docs.golem.network/docs/creators/javascript/quickstart/#setup-yagna_appkey) how to do so)
 
 2. Run a verification script:
    1. Go to the `yagna-setup` task directory in your repository fork
