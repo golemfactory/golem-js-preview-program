@@ -1,7 +1,7 @@
 # Task #5 - Best Provider Selection
 
 Thank you for your interest in the JS Preview Program. Its purpose is to test the new JS API and the new documentation 
-available at https://docs.golem.network/creators/. This is where you should find all the necessary information about 
+available at https://docs.golem.network/docs/creators/. This is where you should find all the necessary information about 
 Golem Network needed to complete this task. 
 
 If you have any questions, we encourage you to contact the SDK team directly, who can help you identify any gaps 
@@ -46,10 +46,10 @@ You could also keep a list of any benchmarking data about providers in a file fo
 
 ### Useful links to solve this task
 
-- https://docs.golem.network/creators/javascript/mid-level/examples/hello/
-- https://docs.golem.network/creators/javascript/mid-level/
-- https://docs.golem.network/creators/javascript/docs/
-- https://docs.golem.network/creators/javascript/docs/readme/
+- https://docs.golem.network/docs/creators/javascript/mid-level/examples/hello/
+- https://docs.golem.network/docs/creators/javascript/mid-level/
+- https://docs.golem.network/docs/creators/javascript/docs/
+- https://docs.golem.network/docs/creators/javascript/docs/readme/
 
 ---
 
@@ -91,8 +91,8 @@ can be found at **https://preview.golem.network/**
 
 ## Useful links:
 
-- Javascript docs: https://docs.golem.network/creators/javascript/quickstart/
-- Dapps docs: https://docs.golem.network/creators/dapps/ 
+- Javascript docs: https://docs.golem.network/docs/creators/javascript/quickstart/
+- Dapps docs: https://docs.golem.network/docs/creators/dapps/ 
 - Need help? Go to https://chat.golem.network/ & find the `#js-discussion` channel in the SDK section
 - Official Golem Network website: https://www.golem.network/
 - Want to join our team? https://www.golem.network/careers 
