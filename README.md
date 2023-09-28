@@ -61,8 +61,6 @@ You will learn how to run the tasks on a mainnet network using real Golem tokens
 
 - Official Golem Network website: https://www.golem.network/
 
-- Program Terms and conditions: https://github.com/golemfactory/golem-js-preview-program/blob/master/TERMS_AND_CONDITIONS.md
-
 
 **What is the Golem Network?**
 
