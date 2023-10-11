@@ -8,7 +8,7 @@ In this exercise, you will learn how to run a script that produces a file and ho
 
 ## Task description
 
-Create a script that will accept the user-provided text as input and convert it to `.mp3` on the Golem Network, download the output, and save it on your disk. For this task, you can use the Golem-provided image containing both `ffmpeg` and `speak`. The image's `hash` is `0e24cd9c3c019143fba94debce69f37353d0157ac4329050870e9ae8`.
+Create a script that will accept the user-provided text as input and convert it to `.mp3` on the Golem Network, download the output, and save it on your disk. For this task, you can use the Golem-provided image containing both `ffmpeg` and `espeak`. The image's `hash` is `0e24cd9c3c019143fba94debce69f37353d0157ac4329050870e9ae8`.
 
 ### Steps
 
