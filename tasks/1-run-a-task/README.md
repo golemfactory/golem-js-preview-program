@@ -26,7 +26,7 @@ Please observe how long it takes to complete the technical part of the tasks. We
 
 - Golem JS [QuickStart](https://docs.golem.network/docs/creators/javascript/quickstarts/quickstart).
 
-- The `fortune` command is available in the `/usr/games` directory.
+- The `fortune` command is available in the `/usr/games` directory within the image.
 
 - The usage example of the `fortune` command:
 
