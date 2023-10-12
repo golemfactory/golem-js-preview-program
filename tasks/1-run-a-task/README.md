@@ -4,11 +4,11 @@
 
 Golem users execute tasks on remote computers.
 
-In this exercise, you will learn how to create a script that will run a task on a remote node and utilize a specific image.
+In this exercise, you will learn how to create a script that will run a task on a remote node and utilize a specific Golem image.
 
 ## Task description
 
-Create a script that will run a `fortune` command on the remote node and display the output. For this task, you can use a Golem-provided image containing both `fortune`. That image's `hash` is `1e65223a888bd7a4521e06ba7f3f3ba648e8a09ffd18f3658efba336`.
+Create a script that will run a `fortune` command on the remote node and display the output. For this task, you can use a Golem-provided image containing the `fortune` command. That image's `hash` is `1e65223a888bd7a4521e06ba7f3f3ba648e8a09ffd18f3658efba336`.
 
 ### Steps
 
