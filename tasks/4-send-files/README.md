@@ -15,9 +15,9 @@ Create a tool that uses the Golem Network to host OCR conversion tools on your c
 
 Please observe how long it takes to complete the technical part of the tasks. We will ask you for such information in the feedback form.
 
-1. Create your custom image.
+1. Create your custom image with the OCR conversion tool. In addition, produce the picture with an image of a text you will use to test your solution.
 
-2. Create a requestor script that would take the input image, send it to the provider, run the conversion, and download the output as a file.
+2. Create a requestor script that would read a file with the input picture, send it to the provider, run the conversion, and download the output as a file.
 
 3. Add changes in the `send-files` directory.
 
