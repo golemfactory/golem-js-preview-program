@@ -40,4 +40,6 @@ Please observe how long it takes to complete the technical part of the tasks. We
 
 - Instructions on how to use the `ImageMagick` software are available on the page https://www.baeldung.com/linux/imagemagick-edit-images. 
 
+- If your tasks need more time to execute, you can set a custom value of the `taskTimeout` property when creating the TaskExecutor instance. The number assigned is a task timeout period in milliseconds.  
+
 - You can always ask on the [Discord](https://chat.golem.network/) `#js-discussion` channel in the SDK section.
