@@ -32,6 +32,6 @@ Please observe how long it takes to complete the technical part of the tasks. We
 
 - The `whisper` tool usage is: `whisper audio.wav --model tiny --language en`.
 
-- Usage of `Golem Network` is demonstrated in [REST API example with Express.js](https://https://docs.golem.network/docs/creators/javascript/tutorials/rest-api-with-express).
+- Usage of `Golem Network` is demonstrated in [REST API example with Express.js](https://docs.golem.network/docs/creators/javascript/tutorials/rest-api-with-express).
 
 - You can always ask on the [Discord](https://chat.golem.network/) `#js-discussion` channel in the SDK section.
